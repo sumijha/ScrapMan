@@ -1,0 +1,29 @@
+02/10/2019 12:30:50 PM POST http://127.0.0.1:65523/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized", "--user-data-dir=C:\\Users\\sujha\\AppData\\Local\\Google\\Chrome\\User Data\\Default"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized", "--user-data-dir=C:\\Users\\sujha\\AppData\\Local\\Google\\Chrome\\User Data\\Default"]}}}
+02/10/2019 12:30:50 PM Starting new HTTP connection (1): 127.0.0.1:65523
+02/10/2019 12:30:52 PM http://127.0.0.1:65523 "POST /session HTTP/1.1" 200 836
+02/10/2019 12:30:52 PM Finished Request
+02/10/2019 12:30:52 PM POST http://127.0.0.1:65523/session/bdd830e6d6506e30f6b6b7209af56a57/url {"url": "https://recorder.maricopa.gov/recdocdata/", "sessionId": "bdd830e6d6506e30f6b6b7209af56a57"}
+02/10/2019 12:30:58 PM http://127.0.0.1:65523 "POST /session/bdd830e6d6506e30f6b6b7209af56a57/url HTTP/1.1" 200 72
+02/10/2019 12:30:58 PM Finished Request
+02/10/2019 12:30:58 PM GET http://127.0.0.1:65523/session/bdd830e6d6506e30f6b6b7209af56a57/cookie {"sessionId": "bdd830e6d6506e30f6b6b7209af56a57"}
+02/10/2019 12:30:58 PM http://127.0.0.1:65523 "GET /session/bdd830e6d6506e30f6b6b7209af56a57/cookie HTTP/1.1" 200 972
+02/10/2019 12:30:58 PM Finished Request
+02/10/2019 12:30:58 PM Successfully launched the Home Page
+02/10/2019 12:31:03 PM POST http://127.0.0.1:65523/session/bdd830e6d6506e30f6b6b7209af56a57/element {"using": "xpath", "value": "//label[text() = 'Business Name:'] / parent::div//input", "sessionId": "bdd830e6d6506e30f6b6b7209af56a57"}
+02/10/2019 12:31:03 PM http://127.0.0.1:65523 "POST /session/bdd830e6d6506e30f6b6b7209af56a57/element HTTP/1.1" 200 102
+02/10/2019 12:31:03 PM Finished Request
+02/10/2019 12:31:03 PM POST http://127.0.0.1:65523/session/bdd830e6d6506e30f6b6b7209af56a57/element/0.7407980928502695-1/value {"text": "CAPITAL FUND", "value": ["C", "A", "P", "I", "T", "A", "L", " ", "F", "U", "N", "D"], "id": "0.7407980928502695-1", "sessionId": "bdd830e6d6506e30f6b6b7209af56a57"}
+02/10/2019 12:31:04 PM http://127.0.0.1:65523 "POST /session/bdd830e6d6506e30f6b6b7209af56a57/element/0.7407980928502695-1/value HTTP/1.1" 200 72
+02/10/2019 12:31:04 PM Finished Request
+02/10/2019 12:31:04 PM POST http://127.0.0.1:65523/session/bdd830e6d6506e30f6b6b7209af56a57/element {"using": "xpath", "value": "//label[contains(@for,'PickerBegin')]/parent::p/parent::div//input[contains(@id,'datepicker')]", "sessionId": "bdd830e6d6506e30f6b6b7209af56a57"}
+02/10/2019 12:31:04 PM http://127.0.0.1:65523 "POST /session/bdd830e6d6506e30f6b6b7209af56a57/element HTTP/1.1" 200 102
+02/10/2019 12:31:04 PM Finished Request
+02/10/2019 12:31:04 PM POST http://127.0.0.1:65523/session/bdd830e6d6506e30f6b6b7209af56a57/element/0.7407980928502695-2/value {"text": "1/1/2019", "value": ["1", "/", "1", "/", "2", "0", "1", "9"], "id": "0.7407980928502695-2", "sessionId": "bdd830e6d6506e30f6b6b7209af56a57"}
+02/10/2019 12:31:04 PM http://127.0.0.1:65523 "POST /session/bdd830e6d6506e30f6b6b7209af56a57/element/0.7407980928502695-2/value HTTP/1.1" 200 72
+02/10/2019 12:31:04 PM Finished Request
+02/10/2019 12:31:04 PM POST http://127.0.0.1:65523/session/bdd830e6d6506e30f6b6b7209af56a57/element {"using": "xpath", "value": "//input[@type='submit' and contains(@id,'btnSearch') and contains(@title,'Click')]", "sessionId": "bdd830e6d6506e30f6b6b7209af56a57"}
+02/10/2019 12:31:04 PM http://127.0.0.1:65523 "POST /session/bdd830e6d6506e30f6b6b7209af56a57/element HTTP/1.1" 200 102
+02/10/2019 12:31:04 PM Finished Request
+02/10/2019 12:31:04 PM POST http://127.0.0.1:65523/session/bdd830e6d6506e30f6b6b7209af56a57/element/0.7407980928502695-3/click {"id": "0.7407980928502695-3", "sessionId": "bdd830e6d6506e30f6b6b7209af56a57"}
+02/10/2019 12:31:12 PM http://127.0.0.1:65523 "POST /session/bdd830e6d6506e30f6b6b7209af56a57/element/0.7407980928502695-3/click HTTP/1.1" 200 72
+02/10/2019 12:31:12 PM Finished Request

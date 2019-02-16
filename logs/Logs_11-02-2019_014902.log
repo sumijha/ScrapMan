@@ -1,0 +1,902 @@
+02/11/2019 08:19:04 AM POST http://127.0.0.1:54239/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized", "--disable-extensions"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized", "--disable-extensions"]}}}
+02/11/2019 08:19:04 AM Starting new HTTP connection (1): 127.0.0.1:54239
+02/11/2019 08:19:06 AM http://127.0.0.1:54239 "POST /session HTTP/1.1" 200 828
+02/11/2019 08:19:06 AM Finished Request
+02/11/2019 08:19:06 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/url {"url": "https://recorder.maricopa.gov/recdocdata/", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:17 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/url HTTP/1.1" 200 72
+02/11/2019 08:19:17 AM Finished Request
+02/11/2019 08:19:17 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/cookie {"sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:17 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/cookie HTTP/1.1" 200 972
+02/11/2019 08:19:17 AM Finished Request
+02/11/2019 08:19:17 AM Successfully launched the Home Page
+02/11/2019 08:19:22 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//label[text() = 'Business Name:'] / parent::div//input", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:22 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 101
+02/11/2019 08:19:22 AM Finished Request
+02/11/2019 08:19:22 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.643914203873452-1/value {"text": "CAPITAL FUND", "value": ["C", "A", "P", "I", "T", "A", "L", " ", "F", "U", "N", "D"], "id": "0.643914203873452-1", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:23 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element/0.643914203873452-1/value HTTP/1.1" 200 72
+02/11/2019 08:19:23 AM Finished Request
+02/11/2019 08:19:23 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//label[contains(@for,'PickerBegin')]/parent::p/parent::div//input[contains(@id,'datepicker')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:23 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 101
+02/11/2019 08:19:23 AM Finished Request
+02/11/2019 08:19:23 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.643914203873452-2/value {"text": "1/1/2019", "value": ["1", "/", "1", "/", "2", "0", "1", "9"], "id": "0.643914203873452-2", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:23 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element/0.643914203873452-2/value HTTP/1.1" 200 72
+02/11/2019 08:19:23 AM Finished Request
+02/11/2019 08:19:23 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//label[contains(@for,'PickerEnd')]/parent::p/parent::div//input[contains(@id,'datepicker')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:23 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 101
+02/11/2019 08:19:23 AM Finished Request
+02/11/2019 08:19:23 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.643914203873452-3/value {"text": "1/10/2019", "value": ["1", "/", "1", "0", "/", "2", "0", "1", "9"], "id": "0.643914203873452-3", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:23 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element/0.643914203873452-3/value HTTP/1.1" 200 72
+02/11/2019 08:19:23 AM Finished Request
+02/11/2019 08:19:23 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//input[@type='submit' and contains(@id,'btnSearch') and contains(@title,'Click')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:23 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 101
+02/11/2019 08:19:23 AM Finished Request
+02/11/2019 08:19:23 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.643914203873452-4/click {"id": "0.643914203873452-4", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:35 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element/0.643914203873452-4/click HTTP/1.1" 200 72
+02/11/2019 08:19:35 AM Finished Request
+02/11/2019 08:19:39 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//div[contains(@id,'pnlButtons') and not(@class)]//input[contains(@id,'btnPageDown')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:39 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 103
+02/11/2019 08:19:39 AM Finished Request
+02/11/2019 08:19:39 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td/a", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:39 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 801
+02/11/2019 08:19:39 AM Finished Request
+02/11/2019 08:19:39 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td[1]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:39 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 809
+02/11/2019 08:19:39 AM Finished Request
+02/11/2019 08:19:39 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.27183052673165364-22/text {"id": "0.27183052673165364-22", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:39 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/element/0.27183052673165364-22/text HTTP/1.1" 200 88
+02/11/2019 08:19:39 AM Finished Request
+02/11/2019 08:19:39 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.27183052673165364-2/click {"id": "0.27183052673165364-2", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:41 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element/0.27183052673165364-2/click HTTP/1.1" 200 72
+02/11/2019 08:19:41 AM Finished Request
+02/11/2019 08:19:41 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocName')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:41 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 103
+02/11/2019 08:19:41 AM Finished Request
+02/11/2019 08:19:41 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDate')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:41 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 103
+02/11/2019 08:19:41 AM Finished Request
+02/11/2019 08:19:41 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecNum')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:41 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 103
+02/11/2019 08:19:41 AM Finished Request
+02/11/2019 08:19:41 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocCode')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:41 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 103
+02/11/2019 08:19:41 AM Finished Request
+02/11/2019 08:19:41 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.15712083536249644-2/text {"id": "0.15712083536249644-2", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:41 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/element/0.15712083536249644-2/text HTTP/1.1" 200 90
+02/11/2019 08:19:41 AM Finished Request
+02/11/2019 08:19:41 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.15712083536249644-4/text {"id": "0.15712083536249644-4", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:41 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/element/0.15712083536249644-4/text HTTP/1.1" 200 90
+02/11/2019 08:19:41 AM Finished Request
+02/11/2019 08:19:41 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.15712083536249644-3/text {"id": "0.15712083536249644-3", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:41 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/element/0.15712083536249644-3/text HTTP/1.1" 200 81
+02/11/2019 08:19:41 AM Finished Request
+02/11/2019 08:19:41 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.15712083536249644-1/text {"id": "0.15712083536249644-1", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:41 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/element/0.15712083536249644-1/text HTTP/1.1" 200 165
+02/11/2019 08:19:41 AM Finished Request
+02/11/2019 08:19:41 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:42 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/execute HTTP/1.1" 200 72
+02/11/2019 08:19:42 AM Finished Request
+02/11/2019 08:19:45 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td/a", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:45 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 800
+02/11/2019 08:19:45 AM Finished Request
+02/11/2019 08:19:45 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td[1]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:45 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 809
+02/11/2019 08:19:45 AM Finished Request
+02/11/2019 08:19:45 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.05806618152383902-22/text {"id": "0.05806618152383902-22", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:45 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/element/0.05806618152383902-22/text HTTP/1.1" 200 88
+02/11/2019 08:19:45 AM Finished Request
+02/11/2019 08:19:45 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.05806618152383902-2/click {"id": "0.05806618152383902-2", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:47 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element/0.05806618152383902-2/click HTTP/1.1" 200 72
+02/11/2019 08:19:47 AM Finished Request
+02/11/2019 08:19:47 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocName')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:47 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 102
+02/11/2019 08:19:47 AM Finished Request
+02/11/2019 08:19:47 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDate')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:47 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 102
+02/11/2019 08:19:47 AM Finished Request
+02/11/2019 08:19:47 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecNum')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:47 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 102
+02/11/2019 08:19:47 AM Finished Request
+02/11/2019 08:19:47 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocCode')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:47 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 102
+02/11/2019 08:19:47 AM Finished Request
+02/11/2019 08:19:47 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.1305678074114882-2/text {"id": "0.1305678074114882-2", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:47 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/element/0.1305678074114882-2/text HTTP/1.1" 200 89
+02/11/2019 08:19:47 AM Finished Request
+02/11/2019 08:19:47 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.1305678074114882-4/text {"id": "0.1305678074114882-4", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:47 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/element/0.1305678074114882-4/text HTTP/1.1" 200 79
+02/11/2019 08:19:47 AM Finished Request
+02/11/2019 08:19:47 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.1305678074114882-3/text {"id": "0.1305678074114882-3", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:47 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/element/0.1305678074114882-3/text HTTP/1.1" 200 81
+02/11/2019 08:19:47 AM Finished Request
+02/11/2019 08:19:47 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.1305678074114882-1/text {"id": "0.1305678074114882-1", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:47 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/element/0.1305678074114882-1/text HTTP/1.1" 200 177
+02/11/2019 08:19:47 AM Finished Request
+02/11/2019 08:19:47 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:48 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/execute HTTP/1.1" 200 72
+02/11/2019 08:19:48 AM Finished Request
+02/11/2019 08:19:51 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td/a", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:51 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 760
+02/11/2019 08:19:51 AM Finished Request
+02/11/2019 08:19:51 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td[1]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:51 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 769
+02/11/2019 08:19:51 AM Finished Request
+02/11/2019 08:19:51 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.389587843196914-23/text {"id": "0.389587843196914-23", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:51 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/element/0.389587843196914-23/text HTTP/1.1" 200 88
+02/11/2019 08:19:51 AM Finished Request
+02/11/2019 08:19:51 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.389587843196914-3/click {"id": "0.389587843196914-3", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:53 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element/0.389587843196914-3/click HTTP/1.1" 200 72
+02/11/2019 08:19:53 AM Finished Request
+02/11/2019 08:19:53 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocName')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:53 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 102
+02/11/2019 08:19:53 AM Finished Request
+02/11/2019 08:19:53 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDate')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:53 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 102
+02/11/2019 08:19:53 AM Finished Request
+02/11/2019 08:19:53 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecNum')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:53 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 102
+02/11/2019 08:19:53 AM Finished Request
+02/11/2019 08:19:53 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocCode')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:53 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 102
+02/11/2019 08:19:53 AM Finished Request
+02/11/2019 08:19:53 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.5902541407005988-2/text {"id": "0.5902541407005988-2", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:53 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/element/0.5902541407005988-2/text HTTP/1.1" 200 89
+02/11/2019 08:19:53 AM Finished Request
+02/11/2019 08:19:53 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.5902541407005988-4/text {"id": "0.5902541407005988-4", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:53 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/element/0.5902541407005988-4/text HTTP/1.1" 200 76
+02/11/2019 08:19:53 AM Finished Request
+02/11/2019 08:19:53 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.5902541407005988-3/text {"id": "0.5902541407005988-3", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:53 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/element/0.5902541407005988-3/text HTTP/1.1" 200 81
+02/11/2019 08:19:53 AM Finished Request
+02/11/2019 08:19:53 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.5902541407005988-1/text {"id": "0.5902541407005988-1", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:19:53 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/element/0.5902541407005988-1/text HTTP/1.1" 200 143
+02/11/2019 08:19:53 AM Finished Request
+02/11/2019 08:19:53 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:15 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/execute HTTP/1.1" 200 72
+02/11/2019 08:20:15 AM Finished Request
+02/11/2019 08:20:18 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td/a", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:18 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 760
+02/11/2019 08:20:18 AM Finished Request
+02/11/2019 08:20:18 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td[1]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:18 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 769
+02/11/2019 08:20:18 AM Finished Request
+02/11/2019 08:20:18 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.769348512976157-24/text {"id": "0.769348512976157-24", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:18 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/element/0.769348512976157-24/text HTTP/1.1" 200 88
+02/11/2019 08:20:18 AM Finished Request
+02/11/2019 08:20:18 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.769348512976157-4/click {"id": "0.769348512976157-4", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:18 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element/0.769348512976157-4/click HTTP/1.1" 200 72
+02/11/2019 08:20:18 AM Finished Request
+02/11/2019 08:20:18 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocName')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:18 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:20:18 AM Finished Request
+02/11/2019 08:20:18 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocName')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:18 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDate')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:18 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 362
+02/11/2019 08:20:18 AM Finished Request
+02/11/2019 08:20:18 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDate')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:18 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecNum')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:18 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 361
+02/11/2019 08:20:18 AM Finished Request
+02/11/2019 08:20:18 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecNum')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:18 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocCode')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:18 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:20:18 AM Finished Request
+02/11/2019 08:20:18 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocCode')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:18 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:18 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/execute HTTP/1.1" 200 72
+02/11/2019 08:20:18 AM Finished Request
+02/11/2019 08:20:21 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td/a", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:21 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 780
+02/11/2019 08:20:21 AM Finished Request
+02/11/2019 08:20:21 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td[1]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:21 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 789
+02/11/2019 08:20:21 AM Finished Request
+02/11/2019 08:20:21 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.8816144282409033-25/text {"id": "0.8816144282409033-25", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:21 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/element/0.8816144282409033-25/text HTTP/1.1" 200 88
+02/11/2019 08:20:21 AM Finished Request
+02/11/2019 08:20:21 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.8816144282409033-5/click {"id": "0.8816144282409033-5", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:22 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element/0.8816144282409033-5/click HTTP/1.1" 200 72
+02/11/2019 08:20:22 AM Finished Request
+02/11/2019 08:20:22 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocName')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:22 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:20:22 AM Finished Request
+02/11/2019 08:20:22 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocName')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:22 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDate')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:22 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 362
+02/11/2019 08:20:22 AM Finished Request
+02/11/2019 08:20:22 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDate')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:22 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecNum')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:22 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 361
+02/11/2019 08:20:22 AM Finished Request
+02/11/2019 08:20:22 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecNum')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:22 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocCode')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:22 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:20:22 AM Finished Request
+02/11/2019 08:20:22 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocCode')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:22 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:23 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/execute HTTP/1.1" 200 72
+02/11/2019 08:20:23 AM Finished Request
+02/11/2019 08:20:26 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td/a", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:26 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 740
+02/11/2019 08:20:26 AM Finished Request
+02/11/2019 08:20:26 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td[1]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:26 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 749
+02/11/2019 08:20:26 AM Finished Request
+02/11/2019 08:20:26 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.54402980553128-26/text {"id": "0.54402980553128-26", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:26 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/element/0.54402980553128-26/text HTTP/1.1" 200 88
+02/11/2019 08:20:26 AM Finished Request
+02/11/2019 08:20:26 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.54402980553128-6/click {"id": "0.54402980553128-6", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:26 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element/0.54402980553128-6/click HTTP/1.1" 200 72
+02/11/2019 08:20:26 AM Finished Request
+02/11/2019 08:20:26 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocName')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:26 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:20:26 AM Finished Request
+02/11/2019 08:20:26 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocName')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:26 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDate')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:26 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 362
+02/11/2019 08:20:26 AM Finished Request
+02/11/2019 08:20:26 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDate')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:26 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecNum')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:26 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 361
+02/11/2019 08:20:26 AM Finished Request
+02/11/2019 08:20:26 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecNum')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:26 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocCode')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:26 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:20:26 AM Finished Request
+02/11/2019 08:20:26 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocCode')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:26 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:27 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/execute HTTP/1.1" 200 72
+02/11/2019 08:20:27 AM Finished Request
+02/11/2019 08:20:30 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td/a", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:30 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 780
+02/11/2019 08:20:30 AM Finished Request
+02/11/2019 08:20:30 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td[1]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:30 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 789
+02/11/2019 08:20:30 AM Finished Request
+02/11/2019 08:20:30 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.6502822186276094-27/text {"id": "0.6502822186276094-27", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:30 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/element/0.6502822186276094-27/text HTTP/1.1" 200 88
+02/11/2019 08:20:30 AM Finished Request
+02/11/2019 08:20:30 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.6502822186276094-7/click {"id": "0.6502822186276094-7", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:30 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element/0.6502822186276094-7/click HTTP/1.1" 200 72
+02/11/2019 08:20:30 AM Finished Request
+02/11/2019 08:20:30 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocName')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:30 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:20:30 AM Finished Request
+02/11/2019 08:20:30 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocName')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:30 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDate')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:30 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 362
+02/11/2019 08:20:30 AM Finished Request
+02/11/2019 08:20:30 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDate')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:30 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecNum')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:30 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 361
+02/11/2019 08:20:30 AM Finished Request
+02/11/2019 08:20:30 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecNum')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:30 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocCode')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:30 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:20:30 AM Finished Request
+02/11/2019 08:20:30 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocCode')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:30 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:31 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/execute HTTP/1.1" 200 72
+02/11/2019 08:20:31 AM Finished Request
+02/11/2019 08:20:34 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td/a", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:34 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 780
+02/11/2019 08:20:34 AM Finished Request
+02/11/2019 08:20:34 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td[1]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:34 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 789
+02/11/2019 08:20:34 AM Finished Request
+02/11/2019 08:20:34 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.6628882833989118-28/text {"id": "0.6628882833989118-28", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:34 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/element/0.6628882833989118-28/text HTTP/1.1" 200 88
+02/11/2019 08:20:34 AM Finished Request
+02/11/2019 08:20:34 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.6628882833989118-8/click {"id": "0.6628882833989118-8", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:34 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element/0.6628882833989118-8/click HTTP/1.1" 200 72
+02/11/2019 08:20:34 AM Finished Request
+02/11/2019 08:20:34 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocName')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:34 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:20:34 AM Finished Request
+02/11/2019 08:20:34 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocName')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:34 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDate')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:34 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 362
+02/11/2019 08:20:34 AM Finished Request
+02/11/2019 08:20:34 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDate')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:34 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecNum')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:35 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 361
+02/11/2019 08:20:35 AM Finished Request
+02/11/2019 08:20:35 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecNum')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:35 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocCode')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:35 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:20:35 AM Finished Request
+02/11/2019 08:20:35 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocCode')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:35 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:35 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/execute HTTP/1.1" 200 72
+02/11/2019 08:20:35 AM Finished Request
+02/11/2019 08:20:38 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td/a", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:38 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 780
+02/11/2019 08:20:38 AM Finished Request
+02/11/2019 08:20:38 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td[1]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:38 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 789
+02/11/2019 08:20:38 AM Finished Request
+02/11/2019 08:20:38 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.1596525609965822-29/text {"id": "0.1596525609965822-29", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:38 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/element/0.1596525609965822-29/text HTTP/1.1" 200 88
+02/11/2019 08:20:38 AM Finished Request
+02/11/2019 08:20:38 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.1596525609965822-9/click {"id": "0.1596525609965822-9", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:39 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element/0.1596525609965822-9/click HTTP/1.1" 200 72
+02/11/2019 08:20:39 AM Finished Request
+02/11/2019 08:20:39 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocName')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:39 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:20:39 AM Finished Request
+02/11/2019 08:20:39 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocName')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:39 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDate')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:39 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 362
+02/11/2019 08:20:39 AM Finished Request
+02/11/2019 08:20:39 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDate')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:39 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecNum')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:39 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 361
+02/11/2019 08:20:39 AM Finished Request
+02/11/2019 08:20:39 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecNum')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:39 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocCode')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:39 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:20:39 AM Finished Request
+02/11/2019 08:20:39 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocCode')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:39 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:40 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/execute HTTP/1.1" 200 72
+02/11/2019 08:20:40 AM Finished Request
+02/11/2019 08:20:43 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td/a", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:43 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 800
+02/11/2019 08:20:43 AM Finished Request
+02/11/2019 08:20:43 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td[1]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:43 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 809
+02/11/2019 08:20:43 AM Finished Request
+02/11/2019 08:20:43 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.35302431524001676-30/text {"id": "0.35302431524001676-30", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:43 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/element/0.35302431524001676-30/text HTTP/1.1" 200 88
+02/11/2019 08:20:43 AM Finished Request
+02/11/2019 08:20:43 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.35302431524001676-10/click {"id": "0.35302431524001676-10", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:43 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element/0.35302431524001676-10/click HTTP/1.1" 200 72
+02/11/2019 08:20:43 AM Finished Request
+02/11/2019 08:20:43 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocName')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:43 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:20:43 AM Finished Request
+02/11/2019 08:20:43 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocName')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:43 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDate')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:43 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 362
+02/11/2019 08:20:43 AM Finished Request
+02/11/2019 08:20:43 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDate')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:43 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecNum')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:43 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 361
+02/11/2019 08:20:43 AM Finished Request
+02/11/2019 08:20:43 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecNum')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:43 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocCode')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:43 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:20:43 AM Finished Request
+02/11/2019 08:20:43 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocCode')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:43 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:43 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/execute HTTP/1.1" 200 72
+02/11/2019 08:20:43 AM Finished Request
+02/11/2019 08:20:46 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td/a", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:46 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 780
+02/11/2019 08:20:46 AM Finished Request
+02/11/2019 08:20:46 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td[1]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:46 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 789
+02/11/2019 08:20:46 AM Finished Request
+02/11/2019 08:20:46 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.5699700157991459-31/text {"id": "0.5699700157991459-31", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:46 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/element/0.5699700157991459-31/text HTTP/1.1" 200 88
+02/11/2019 08:20:46 AM Finished Request
+02/11/2019 08:20:46 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.5699700157991459-11/click {"id": "0.5699700157991459-11", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:46 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element/0.5699700157991459-11/click HTTP/1.1" 200 72
+02/11/2019 08:20:46 AM Finished Request
+02/11/2019 08:20:46 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocName')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:46 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:20:46 AM Finished Request
+02/11/2019 08:20:46 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocName')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:46 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDate')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:47 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 362
+02/11/2019 08:20:47 AM Finished Request
+02/11/2019 08:20:47 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDate')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:47 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecNum')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:47 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 361
+02/11/2019 08:20:47 AM Finished Request
+02/11/2019 08:20:47 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecNum')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:47 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocCode')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:47 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:20:47 AM Finished Request
+02/11/2019 08:20:47 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocCode')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:47 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:48 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/execute HTTP/1.1" 200 72
+02/11/2019 08:20:48 AM Finished Request
+02/11/2019 08:20:51 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td/a", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:51 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 800
+02/11/2019 08:20:51 AM Finished Request
+02/11/2019 08:20:51 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td[1]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:51 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 809
+02/11/2019 08:20:51 AM Finished Request
+02/11/2019 08:20:51 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.08422733607688548-32/text {"id": "0.08422733607688548-32", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:51 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/element/0.08422733607688548-32/text HTTP/1.1" 200 88
+02/11/2019 08:20:51 AM Finished Request
+02/11/2019 08:20:51 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.08422733607688548-12/click {"id": "0.08422733607688548-12", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:51 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element/0.08422733607688548-12/click HTTP/1.1" 200 72
+02/11/2019 08:20:51 AM Finished Request
+02/11/2019 08:20:51 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocName')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:51 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:20:51 AM Finished Request
+02/11/2019 08:20:51 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocName')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:51 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDate')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:51 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 362
+02/11/2019 08:20:51 AM Finished Request
+02/11/2019 08:20:51 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDate')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:51 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecNum')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:51 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 361
+02/11/2019 08:20:51 AM Finished Request
+02/11/2019 08:20:51 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecNum')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:51 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocCode')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:51 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:20:51 AM Finished Request
+02/11/2019 08:20:51 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocCode')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:51 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:52 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/execute HTTP/1.1" 200 72
+02/11/2019 08:20:52 AM Finished Request
+02/11/2019 08:20:55 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td/a", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:55 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 760
+02/11/2019 08:20:55 AM Finished Request
+02/11/2019 08:20:55 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td[1]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:55 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 769
+02/11/2019 08:20:55 AM Finished Request
+02/11/2019 08:20:55 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.593516676474078-33/text {"id": "0.593516676474078-33", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:55 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/element/0.593516676474078-33/text HTTP/1.1" 200 88
+02/11/2019 08:20:55 AM Finished Request
+02/11/2019 08:20:55 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.593516676474078-13/click {"id": "0.593516676474078-13", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:56 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element/0.593516676474078-13/click HTTP/1.1" 200 72
+02/11/2019 08:20:56 AM Finished Request
+02/11/2019 08:20:56 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocName')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:56 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:20:56 AM Finished Request
+02/11/2019 08:20:56 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocName')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:56 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDate')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:56 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 362
+02/11/2019 08:20:56 AM Finished Request
+02/11/2019 08:20:56 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDate')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:56 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecNum')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:56 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 361
+02/11/2019 08:20:56 AM Finished Request
+02/11/2019 08:20:56 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecNum')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:56 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocCode')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:56 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:20:56 AM Finished Request
+02/11/2019 08:20:56 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocCode')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:20:56 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:20:57 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/execute HTTP/1.1" 200 72
+02/11/2019 08:20:57 AM Finished Request
+02/11/2019 08:21:00 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td/a", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:00 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 800
+02/11/2019 08:21:00 AM Finished Request
+02/11/2019 08:21:00 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td[1]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:00 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 809
+02/11/2019 08:21:00 AM Finished Request
+02/11/2019 08:21:00 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.20982415356994033-34/text {"id": "0.20982415356994033-34", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:00 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/element/0.20982415356994033-34/text HTTP/1.1" 200 88
+02/11/2019 08:21:00 AM Finished Request
+02/11/2019 08:21:00 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.20982415356994033-14/click {"id": "0.20982415356994033-14", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:00 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element/0.20982415356994033-14/click HTTP/1.1" 200 72
+02/11/2019 08:21:00 AM Finished Request
+02/11/2019 08:21:00 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocName')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:00 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:21:00 AM Finished Request
+02/11/2019 08:21:00 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocName')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:21:00 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDate')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:00 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 362
+02/11/2019 08:21:00 AM Finished Request
+02/11/2019 08:21:00 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDate')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:21:00 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecNum')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:00 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 361
+02/11/2019 08:21:00 AM Finished Request
+02/11/2019 08:21:00 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecNum')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:21:00 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocCode')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:00 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:21:00 AM Finished Request
+02/11/2019 08:21:00 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocCode')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:21:00 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:01 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/execute HTTP/1.1" 200 72
+02/11/2019 08:21:01 AM Finished Request
+02/11/2019 08:21:04 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td/a", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:04 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 780
+02/11/2019 08:21:04 AM Finished Request
+02/11/2019 08:21:04 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td[1]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:04 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 789
+02/11/2019 08:21:04 AM Finished Request
+02/11/2019 08:21:04 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.3240091209374958-35/text {"id": "0.3240091209374958-35", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:04 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/element/0.3240091209374958-35/text HTTP/1.1" 200 88
+02/11/2019 08:21:04 AM Finished Request
+02/11/2019 08:21:04 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.3240091209374958-15/click {"id": "0.3240091209374958-15", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:05 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element/0.3240091209374958-15/click HTTP/1.1" 200 72
+02/11/2019 08:21:05 AM Finished Request
+02/11/2019 08:21:05 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocName')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:05 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:21:05 AM Finished Request
+02/11/2019 08:21:05 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocName')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:21:05 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDate')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:05 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 362
+02/11/2019 08:21:05 AM Finished Request
+02/11/2019 08:21:05 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDate')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:21:05 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecNum')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:05 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 361
+02/11/2019 08:21:05 AM Finished Request
+02/11/2019 08:21:05 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecNum')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:21:05 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocCode')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:05 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:21:05 AM Finished Request
+02/11/2019 08:21:05 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocCode')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:21:05 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:06 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/execute HTTP/1.1" 200 72
+02/11/2019 08:21:06 AM Finished Request
+02/11/2019 08:21:09 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td/a", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:09 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 780
+02/11/2019 08:21:09 AM Finished Request
+02/11/2019 08:21:09 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td[1]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:09 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 789
+02/11/2019 08:21:09 AM Finished Request
+02/11/2019 08:21:09 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.6850655168678619-36/text {"id": "0.6850655168678619-36", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:09 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/element/0.6850655168678619-36/text HTTP/1.1" 200 88
+02/11/2019 08:21:09 AM Finished Request
+02/11/2019 08:21:09 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.6850655168678619-16/click {"id": "0.6850655168678619-16", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:09 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element/0.6850655168678619-16/click HTTP/1.1" 200 72
+02/11/2019 08:21:09 AM Finished Request
+02/11/2019 08:21:09 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocName')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:09 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:21:09 AM Finished Request
+02/11/2019 08:21:09 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocName')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:21:09 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDate')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:09 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 362
+02/11/2019 08:21:09 AM Finished Request
+02/11/2019 08:21:09 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDate')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:21:09 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecNum')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:09 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 361
+02/11/2019 08:21:09 AM Finished Request
+02/11/2019 08:21:09 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecNum')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:21:09 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocCode')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:09 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:21:09 AM Finished Request
+02/11/2019 08:21:09 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocCode')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:21:09 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:10 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/execute HTTP/1.1" 200 72
+02/11/2019 08:21:10 AM Finished Request
+02/11/2019 08:21:13 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td/a", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:13 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 780
+02/11/2019 08:21:13 AM Finished Request
+02/11/2019 08:21:13 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td[1]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:13 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 789
+02/11/2019 08:21:13 AM Finished Request
+02/11/2019 08:21:13 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.8537186142198547-37/text {"id": "0.8537186142198547-37", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:13 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/element/0.8537186142198547-37/text HTTP/1.1" 200 88
+02/11/2019 08:21:13 AM Finished Request
+02/11/2019 08:21:13 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.8537186142198547-17/click {"id": "0.8537186142198547-17", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:13 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element/0.8537186142198547-17/click HTTP/1.1" 200 72
+02/11/2019 08:21:13 AM Finished Request
+02/11/2019 08:21:13 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocName')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:14 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:21:14 AM Finished Request
+02/11/2019 08:21:14 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocName')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:21:14 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDate')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:14 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 362
+02/11/2019 08:21:14 AM Finished Request
+02/11/2019 08:21:14 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDate')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:21:14 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecNum')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:14 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 361
+02/11/2019 08:21:14 AM Finished Request
+02/11/2019 08:21:14 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecNum')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:21:14 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocCode')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:14 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:21:14 AM Finished Request
+02/11/2019 08:21:14 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocCode')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:21:14 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:14 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/execute HTTP/1.1" 200 72
+02/11/2019 08:21:14 AM Finished Request
+02/11/2019 08:21:17 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td/a", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:17 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 780
+02/11/2019 08:21:17 AM Finished Request
+02/11/2019 08:21:17 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td[1]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:18 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 789
+02/11/2019 08:21:18 AM Finished Request
+02/11/2019 08:21:18 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.9693038346715979-38/text {"id": "0.9693038346715979-38", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:18 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/element/0.9693038346715979-38/text HTTP/1.1" 200 88
+02/11/2019 08:21:18 AM Finished Request
+02/11/2019 08:21:18 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.9693038346715979-18/click {"id": "0.9693038346715979-18", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:18 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element/0.9693038346715979-18/click HTTP/1.1" 200 72
+02/11/2019 08:21:18 AM Finished Request
+02/11/2019 08:21:18 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocName')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:18 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:21:18 AM Finished Request
+02/11/2019 08:21:18 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocName')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:21:18 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDate')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:18 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 362
+02/11/2019 08:21:18 AM Finished Request
+02/11/2019 08:21:18 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDate')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:21:18 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecNum')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:18 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 361
+02/11/2019 08:21:18 AM Finished Request
+02/11/2019 08:21:18 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecNum')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:21:18 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocCode')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:18 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:21:18 AM Finished Request
+02/11/2019 08:21:18 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocCode')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:21:18 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:19 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/execute HTTP/1.1" 200 72
+02/11/2019 08:21:19 AM Finished Request
+02/11/2019 08:21:22 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td/a", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:22 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 760
+02/11/2019 08:21:22 AM Finished Request
+02/11/2019 08:21:22 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td[1]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:22 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 769
+02/11/2019 08:21:22 AM Finished Request
+02/11/2019 08:21:22 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.521018186057854-39/text {"id": "0.521018186057854-39", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:22 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/element/0.521018186057854-39/text HTTP/1.1" 200 88
+02/11/2019 08:21:22 AM Finished Request
+02/11/2019 08:21:22 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.521018186057854-19/click {"id": "0.521018186057854-19", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:22 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element/0.521018186057854-19/click HTTP/1.1" 200 72
+02/11/2019 08:21:22 AM Finished Request
+02/11/2019 08:21:22 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocName')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:22 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:21:22 AM Finished Request
+02/11/2019 08:21:22 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocName')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:21:22 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDate')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:22 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 362
+02/11/2019 08:21:22 AM Finished Request
+02/11/2019 08:21:22 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDate')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:21:22 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecNum')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:22 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 361
+02/11/2019 08:21:22 AM Finished Request
+02/11/2019 08:21:22 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecNum')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:21:22 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocCode')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:22 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:21:22 AM Finished Request
+02/11/2019 08:21:22 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocCode')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:21:22 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:23 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/execute HTTP/1.1" 200 72
+02/11/2019 08:21:23 AM Finished Request
+02/11/2019 08:21:26 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td/a", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:26 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 800
+02/11/2019 08:21:26 AM Finished Request
+02/11/2019 08:21:26 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td[1]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:26 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 809
+02/11/2019 08:21:26 AM Finished Request
+02/11/2019 08:21:26 AM GET http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.06607137743906333-40/text {"id": "0.06607137743906333-40", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:26 AM http://127.0.0.1:54239 "GET /session/d5e57634f7688b9794163c44865ef2aa/element/0.06607137743906333-40/text HTTP/1.1" 200 88
+02/11/2019 08:21:26 AM Finished Request
+02/11/2019 08:21:26 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.06607137743906333-20/click {"id": "0.06607137743906333-20", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:26 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element/0.06607137743906333-20/click HTTP/1.1" 200 72
+02/11/2019 08:21:26 AM Finished Request
+02/11/2019 08:21:26 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocName')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:26 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:21:26 AM Finished Request
+02/11/2019 08:21:26 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocName')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:21:26 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDate')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:26 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 362
+02/11/2019 08:21:26 AM Finished Request
+02/11/2019 08:21:26 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDate')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:21:26 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecNum')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:26 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 361
+02/11/2019 08:21:26 AM Finished Request
+02/11/2019 08:21:26 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecNum')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:21:26 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocCode')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:26 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 365
+02/11/2019 08:21:26 AM Finished Request
+02/11/2019 08:21:26 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@id,'lblRecDocCode')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 08:21:26 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:27 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/execute HTTP/1.1" 200 72
+02/11/2019 08:21:27 AM Finished Request
+02/11/2019 08:21:30 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td/a", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:30 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/elements HTTP/1.1" 200 800
+02/11/2019 08:21:30 AM Finished Request
+02/11/2019 08:21:30 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//div[contains(@id,'pnlButtons') and not(@class)]//input[contains(@id,'btnPageDown')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:30 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 104
+02/11/2019 08:21:30 AM Finished Request
+02/11/2019 08:21:30 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element/0.08263438782759058-21/click {"id": "0.08263438782759058-21", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:31 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element/0.08263438782759058-21/click HTTP/1.1" 200 72
+02/11/2019 08:21:31 AM Finished Request
+02/11/2019 08:21:34 AM POST http://127.0.0.1:54239/session/d5e57634f7688b9794163c44865ef2aa/element {"using": "xpath", "value": "//div[contains(@id,'pnlButtons') and not(@class)]//input[contains(@id,'btnPageDown')]", "sessionId": "d5e57634f7688b9794163c44865ef2aa"}
+02/11/2019 08:21:34 AM http://127.0.0.1:54239 "POST /session/d5e57634f7688b9794163c44865ef2aa/element HTTP/1.1" 200 413
+02/11/2019 08:21:34 AM Finished Request
+02/11/2019 08:21:34 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'pnlButtons') and not(@class)]//input[contains(@id,'btnPageDown')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+

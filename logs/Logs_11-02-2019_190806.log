@@ -1,0 +1,46 @@
+02/11/2019 11:38:22 AM POST http://127.0.0.1:55677/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized", "--disable-extensions"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized", "--disable-extensions"]}}}
+02/11/2019 11:38:22 AM Starting new HTTP connection (1): 127.0.0.1:55677
+02/11/2019 11:38:23 AM http://127.0.0.1:55677 "POST /session HTTP/1.1" 200 829
+02/11/2019 11:38:23 AM Finished Request
+02/11/2019 11:38:23 AM POST http://127.0.0.1:55677/session/060777d0576d433091e3b48c348dcd12/url {"url": "https://mcassessor.maricopa.gov/", "sessionId": "060777d0576d433091e3b48c348dcd12"}
+02/11/2019 11:38:32 AM http://127.0.0.1:55677 "POST /session/060777d0576d433091e3b48c348dcd12/url HTTP/1.1" 200 72
+02/11/2019 11:38:32 AM Finished Request
+02/11/2019 11:38:32 AM GET http://127.0.0.1:55677/session/060777d0576d433091e3b48c348dcd12/cookie {"sessionId": "060777d0576d433091e3b48c348dcd12"}
+02/11/2019 11:38:32 AM http://127.0.0.1:55677 "GET /session/060777d0576d433091e3b48c348dcd12/cookie HTTP/1.1" 200 601
+02/11/2019 11:38:32 AM Finished Request
+02/11/2019 11:38:32 AM Successfully launched the Home Page
+02/11/2019 11:38:37 AM POST http://127.0.0.1:55677/session/060777d0576d433091e3b48c348dcd12/element {"using": "xpath", "value": "//label[text() = 'Business Name:'] / parent::div//input", "sessionId": "060777d0576d433091e3b48c348dcd12"}
+02/11/2019 11:38:37 AM http://127.0.0.1:55677 "POST /session/060777d0576d433091e3b48c348dcd12/element HTTP/1.1" 200 383
+02/11/2019 11:38:37 AM Finished Request
+02/11/2019 11:38:37 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//label[text() = 'Business Name:'] / parent::div//input"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 11:38:37 AM POST http://127.0.0.1:55677/session/060777d0576d433091e3b48c348dcd12/element {"using": "xpath", "value": "//label[contains(@for,'PickerBegin')]/parent::p/parent::div//input[contains(@id,'datepicker')]", "sessionId": "060777d0576d433091e3b48c348dcd12"}
+02/11/2019 11:38:37 AM http://127.0.0.1:55677 "POST /session/060777d0576d433091e3b48c348dcd12/element HTTP/1.1" 200 422
+02/11/2019 11:38:37 AM Finished Request
+02/11/2019 11:38:37 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//label[contains(@for,'PickerBegin')]/parent::p/parent::div//input[contains(@id,'datepicker')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 11:38:37 AM POST http://127.0.0.1:55677/session/060777d0576d433091e3b48c348dcd12/element {"using": "xpath", "value": "//label[contains(@for,'PickerEnd')]/parent::p/parent::div//input[contains(@id,'datepicker')]", "sessionId": "060777d0576d433091e3b48c348dcd12"}
+02/11/2019 11:38:37 AM http://127.0.0.1:55677 "POST /session/060777d0576d433091e3b48c348dcd12/element HTTP/1.1" 200 420
+02/11/2019 11:38:37 AM Finished Request
+02/11/2019 11:38:37 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//label[contains(@for,'PickerEnd')]/parent::p/parent::div//input[contains(@id,'datepicker')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 11:38:37 AM POST http://127.0.0.1:55677/session/060777d0576d433091e3b48c348dcd12/element {"using": "xpath", "value": "//input[@type='submit' and contains(@id,'btnSearch') and contains(@title,'Click')]", "sessionId": "060777d0576d433091e3b48c348dcd12"}
+02/11/2019 11:38:37 AM http://127.0.0.1:55677 "POST /session/060777d0576d433091e3b48c348dcd12/element HTTP/1.1" 200 410
+02/11/2019 11:38:37 AM Finished Request
+02/11/2019 11:38:37 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='submit' and contains(@id,'btnSearch') and contains(@title,'Click')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 11:38:41 AM POST http://127.0.0.1:55677/session/060777d0576d433091e3b48c348dcd12/element {"using": "xpath", "value": "//div[contains(@id,'pnlButtons') and not(@class)]//input[contains(@id,'btnPageDown')]", "sessionId": "060777d0576d433091e3b48c348dcd12"}
+02/11/2019 11:38:41 AM http://127.0.0.1:55677 "POST /session/060777d0576d433091e3b48c348dcd12/element HTTP/1.1" 200 413
+02/11/2019 11:38:41 AM Finished Request
+02/11/2019 11:38:41 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'pnlButtons') and not(@class)]//input[contains(@id,'btnPageDown')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+

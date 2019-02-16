@@ -1,0 +1,11 @@
+02/10/2019 09:57:32 PM POST http://127.0.0.1:52199/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized", "--disable-extensions", "--user-data-dir=C:\\Users\\sujha\\AppData\\Local\\Google\\Chrome\\User Data\\Default"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized", "--disable-extensions", "--user-data-dir=C:\\Users\\sujha\\AppData\\Local\\Google\\Chrome\\User Data\\Default"]}}}
+02/10/2019 09:57:32 PM Starting new HTTP connection (1): 127.0.0.1:52199
+02/10/2019 09:57:34 PM http://127.0.0.1:52199 "POST /session HTTP/1.1" 200 836
+02/10/2019 09:57:34 PM Finished Request
+02/10/2019 09:57:34 PM POST http://127.0.0.1:52199/session/4fdb6686750d0f08954856635c15097c/url {"url": "https://recorder.maricopa.gov/recdocdata/", "sessionId": "4fdb6686750d0f08954856635c15097c"}
+02/10/2019 09:57:46 PM http://127.0.0.1:52199 "POST /session/4fdb6686750d0f08954856635c15097c/url HTTP/1.1" 200 72
+02/10/2019 09:57:46 PM Finished Request
+02/10/2019 09:57:46 PM GET http://127.0.0.1:52199/session/4fdb6686750d0f08954856635c15097c/cookie {"sessionId": "4fdb6686750d0f08954856635c15097c"}
+02/10/2019 09:57:46 PM http://127.0.0.1:52199 "GET /session/4fdb6686750d0f08954856635c15097c/cookie HTTP/1.1" 200 972
+02/10/2019 09:57:46 PM Finished Request
+02/10/2019 09:57:46 PM Successfully launched the Home Page

@@ -1,0 +1,27 @@
+02/12/2019 12:47:29 AM POST http://127.0.0.1:61022/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized", "--disable-extensions"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized", "--disable-extensions"]}}}
+02/12/2019 12:47:29 AM Starting new HTTP connection (1): 127.0.0.1:61022
+02/12/2019 12:47:31 AM http://127.0.0.1:61022 "POST /session HTTP/1.1" 200 828
+02/12/2019 12:47:31 AM Finished Request
+02/12/2019 12:47:31 AM POST http://127.0.0.1:61022/session/ce05ab670d36260c193479a4367527f6/url {"url": "https://mcassessor.maricopa.gov/", "sessionId": "ce05ab670d36260c193479a4367527f6"}
+02/12/2019 12:47:44 AM http://127.0.0.1:61022 "POST /session/ce05ab670d36260c193479a4367527f6/url HTTP/1.1" 200 72
+02/12/2019 12:47:44 AM Finished Request
+02/12/2019 12:47:44 AM GET http://127.0.0.1:61022/session/ce05ab670d36260c193479a4367527f6/cookie {"sessionId": "ce05ab670d36260c193479a4367527f6"}
+02/12/2019 12:47:44 AM http://127.0.0.1:61022 "GET /session/ce05ab670d36260c193479a4367527f6/cookie HTTP/1.1" 200 598
+02/12/2019 12:47:44 AM Finished Request
+02/12/2019 12:47:44 AM Successfully launched the Home Page
+02/12/2019 12:47:49 AM POST http://127.0.0.1:61022/session/ce05ab670d36260c193479a4367527f6/element {"using": "xpath", "value": "//input[@class='homeSearchField']", "sessionId": "ce05ab670d36260c193479a4367527f6"}
+02/12/2019 12:47:49 AM http://127.0.0.1:61022 "POST /session/ce05ab670d36260c193479a4367527f6/element HTTP/1.1" 200 102
+02/12/2019 12:47:49 AM Finished Request
+02/12/2019 12:47:49 AM POST http://127.0.0.1:61022/session/ce05ab670d36260c193479a4367527f6/element/0.7632507863983962-1/value {"text": "ron herb", "value": ["r", "o", "n", " ", "h", "e", "r", "b"], "id": "0.7632507863983962-1", "sessionId": "ce05ab670d36260c193479a4367527f6"}
+02/12/2019 12:47:49 AM http://127.0.0.1:61022 "POST /session/ce05ab670d36260c193479a4367527f6/element/0.7632507863983962-1/value HTTP/1.1" 200 72
+02/12/2019 12:47:49 AM Finished Request
+02/12/2019 12:47:49 AM POST http://127.0.0.1:61022/session/ce05ab670d36260c193479a4367527f6/element {"using": "xpath", "value": "//button[@class='homeSearchBtn']", "sessionId": "ce05ab670d36260c193479a4367527f6"}
+02/12/2019 12:47:49 AM http://127.0.0.1:61022 "POST /session/ce05ab670d36260c193479a4367527f6/element HTTP/1.1" 200 102
+02/12/2019 12:47:49 AM Finished Request
+02/12/2019 12:47:49 AM POST http://127.0.0.1:61022/session/ce05ab670d36260c193479a4367527f6/element/0.7632507863983962-2/click {"id": "0.7632507863983962-2", "sessionId": "ce05ab670d36260c193479a4367527f6"}
+02/12/2019 12:47:54 AM http://127.0.0.1:61022 "POST /session/ce05ab670d36260c193479a4367527f6/element/0.7632507863983962-2/click HTTP/1.1" 200 72
+02/12/2019 12:47:54 AM Finished Request
+02/12/2019 12:47:58 AM POST http://127.0.0.1:61022/session/ce05ab670d36260c193479a4367527f6/elements {"using": "xpath", "value": "//div[@id='real-property-results-section']//td[@class='collapsing one wide']//a", "sessionId": "ce05ab670d36260c193479a4367527f6"}
+02/12/2019 12:47:58 AM http://127.0.0.1:61022 "POST /session/ce05ab670d36260c193479a4367527f6/elements HTTP/1.1" 200 960
+02/12/2019 12:47:58 AM Finished Request
+02/12/2019 12:47:58 AM POST http://127.0.0.1:61022/session/ce05ab670d36260c193479a4367527f6/execute {"script": "arguments[0].click();", "args": [{"ELEMENT": "0.6592451570711393-1", "element-6066-11e4-a52e-4f735466cecf": "0.6592451570711393-1"}], "sessionId": "ce05ab670d36260c193479a4367527f6"}

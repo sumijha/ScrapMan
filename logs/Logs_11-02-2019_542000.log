@@ -1,0 +1,86 @@
+02/11/2019 05:50:57 AM POST http://127.0.0.1:53067/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized", "--disable-extensions"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized", "--disable-extensions"]}}}
+02/11/2019 05:50:57 AM Starting new HTTP connection (1): 127.0.0.1:53067
+02/11/2019 05:50:59 AM http://127.0.0.1:53067 "POST /session HTTP/1.1" 200 828
+02/11/2019 05:50:59 AM Finished Request
+02/11/2019 05:50:59 AM POST http://127.0.0.1:53067/session/b03d9a78adcb1421353c7d2a63f1fd87/url {"url": "https://recorder.maricopa.gov/recdocdata/", "sessionId": "b03d9a78adcb1421353c7d2a63f1fd87"}
+02/11/2019 05:51:12 AM http://127.0.0.1:53067 "POST /session/b03d9a78adcb1421353c7d2a63f1fd87/url HTTP/1.1" 200 72
+02/11/2019 05:51:12 AM Finished Request
+02/11/2019 05:51:12 AM GET http://127.0.0.1:53067/session/b03d9a78adcb1421353c7d2a63f1fd87/cookie {"sessionId": "b03d9a78adcb1421353c7d2a63f1fd87"}
+02/11/2019 05:51:12 AM http://127.0.0.1:53067 "GET /session/b03d9a78adcb1421353c7d2a63f1fd87/cookie HTTP/1.1" 200 972
+02/11/2019 05:51:12 AM Finished Request
+02/11/2019 05:51:12 AM Successfully launched the Home Page
+02/11/2019 05:51:17 AM POST http://127.0.0.1:53067/session/b03d9a78adcb1421353c7d2a63f1fd87/element {"using": "xpath", "value": "//label[text() = 'Business Name:'] / parent::div//input", "sessionId": "b03d9a78adcb1421353c7d2a63f1fd87"}
+02/11/2019 05:51:17 AM http://127.0.0.1:53067 "POST /session/b03d9a78adcb1421353c7d2a63f1fd87/element HTTP/1.1" 200 102
+02/11/2019 05:51:17 AM Finished Request
+02/11/2019 05:51:17 AM POST http://127.0.0.1:53067/session/b03d9a78adcb1421353c7d2a63f1fd87/element/0.8272769610922734-1/value {"text": "Good New Group", "value": ["G", "o", "o", "d", " ", "N", "e", "w", " ", "G", "r", "o", "u", "p"], "id": "0.8272769610922734-1", "sessionId": "b03d9a78adcb1421353c7d2a63f1fd87"}
+02/11/2019 05:51:17 AM http://127.0.0.1:53067 "POST /session/b03d9a78adcb1421353c7d2a63f1fd87/element/0.8272769610922734-1/value HTTP/1.1" 200 72
+02/11/2019 05:51:17 AM Finished Request
+02/11/2019 05:51:17 AM POST http://127.0.0.1:53067/session/b03d9a78adcb1421353c7d2a63f1fd87/element {"using": "xpath", "value": "//label[contains(@for,'PickerBegin')]/parent::p/parent::div//input[contains(@id,'datepicker')]", "sessionId": "b03d9a78adcb1421353c7d2a63f1fd87"}
+02/11/2019 05:51:18 AM http://127.0.0.1:53067 "POST /session/b03d9a78adcb1421353c7d2a63f1fd87/element HTTP/1.1" 200 102
+02/11/2019 05:51:18 AM Finished Request
+02/11/2019 05:51:18 AM POST http://127.0.0.1:53067/session/b03d9a78adcb1421353c7d2a63f1fd87/element/0.8272769610922734-2/value {"text": "1/1/2018", "value": ["1", "/", "1", "/", "2", "0", "1", "8"], "id": "0.8272769610922734-2", "sessionId": "b03d9a78adcb1421353c7d2a63f1fd87"}
+02/11/2019 05:51:18 AM http://127.0.0.1:53067 "POST /session/b03d9a78adcb1421353c7d2a63f1fd87/element/0.8272769610922734-2/value HTTP/1.1" 200 72
+02/11/2019 05:51:18 AM Finished Request
+02/11/2019 05:51:18 AM POST http://127.0.0.1:53067/session/b03d9a78adcb1421353c7d2a63f1fd87/element {"using": "xpath", "value": "//label[contains(@for,'PickerEnd')]/parent::p/parent::div//input[contains(@id,'datepicker')]", "sessionId": "b03d9a78adcb1421353c7d2a63f1fd87"}
+02/11/2019 05:51:18 AM http://127.0.0.1:53067 "POST /session/b03d9a78adcb1421353c7d2a63f1fd87/element HTTP/1.1" 200 102
+02/11/2019 05:51:18 AM Finished Request
+02/11/2019 05:51:18 AM POST http://127.0.0.1:53067/session/b03d9a78adcb1421353c7d2a63f1fd87/element/0.8272769610922734-3/value {"text": "1/10/2019", "value": ["1", "/", "1", "0", "/", "2", "0", "1", "9"], "id": "0.8272769610922734-3", "sessionId": "b03d9a78adcb1421353c7d2a63f1fd87"}
+02/11/2019 05:51:18 AM http://127.0.0.1:53067 "POST /session/b03d9a78adcb1421353c7d2a63f1fd87/element/0.8272769610922734-3/value HTTP/1.1" 200 72
+02/11/2019 05:51:18 AM Finished Request
+02/11/2019 05:51:18 AM POST http://127.0.0.1:53067/session/b03d9a78adcb1421353c7d2a63f1fd87/element {"using": "xpath", "value": "//input[@type='submit' and contains(@id,'btnSearch') and contains(@title,'Click')]", "sessionId": "b03d9a78adcb1421353c7d2a63f1fd87"}
+02/11/2019 05:51:18 AM http://127.0.0.1:53067 "POST /session/b03d9a78adcb1421353c7d2a63f1fd87/element HTTP/1.1" 200 102
+02/11/2019 05:51:18 AM Finished Request
+02/11/2019 05:51:18 AM POST http://127.0.0.1:53067/session/b03d9a78adcb1421353c7d2a63f1fd87/element/0.8272769610922734-4/click {"id": "0.8272769610922734-4", "sessionId": "b03d9a78adcb1421353c7d2a63f1fd87"}
+02/11/2019 05:51:26 AM http://127.0.0.1:53067 "POST /session/b03d9a78adcb1421353c7d2a63f1fd87/element/0.8272769610922734-4/click HTTP/1.1" 200 72
+02/11/2019 05:51:26 AM Finished Request
+02/11/2019 05:51:30 AM POST http://127.0.0.1:53067/session/b03d9a78adcb1421353c7d2a63f1fd87/element {"using": "xpath", "value": "//div[contains(@id,'pnlButtons') and not(@class)]//input[contains(@id,'btnPageDown')]", "sessionId": "b03d9a78adcb1421353c7d2a63f1fd87"}
+02/11/2019 05:51:30 AM http://127.0.0.1:53067 "POST /session/b03d9a78adcb1421353c7d2a63f1fd87/element HTTP/1.1" 200 103
+02/11/2019 05:51:30 AM Finished Request
+02/11/2019 05:51:30 AM POST http://127.0.0.1:53067/session/b03d9a78adcb1421353c7d2a63f1fd87/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td/a", "sessionId": "b03d9a78adcb1421353c7d2a63f1fd87"}
+02/11/2019 05:51:30 AM http://127.0.0.1:53067 "POST /session/b03d9a78adcb1421353c7d2a63f1fd87/elements HTTP/1.1" 200 801
+02/11/2019 05:51:30 AM Finished Request
+02/11/2019 05:51:30 AM POST http://127.0.0.1:53067/session/b03d9a78adcb1421353c7d2a63f1fd87/element {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td[1]", "sessionId": "b03d9a78adcb1421353c7d2a63f1fd87"}
+02/11/2019 05:51:30 AM http://127.0.0.1:53067 "POST /session/b03d9a78adcb1421353c7d2a63f1fd87/element HTTP/1.1" 200 104
+02/11/2019 05:51:30 AM Finished Request
+02/11/2019 05:51:30 AM GET http://127.0.0.1:53067/session/b03d9a78adcb1421353c7d2a63f1fd87/element/0.22071389637487915-22/text {"id": "0.22071389637487915-22", "sessionId": "b03d9a78adcb1421353c7d2a63f1fd87"}
+02/11/2019 05:51:30 AM http://127.0.0.1:53067 "GET /session/b03d9a78adcb1421353c7d2a63f1fd87/element/0.22071389637487915-22/text HTTP/1.1" 200 88
+02/11/2019 05:51:30 AM Finished Request
+02/11/2019 05:51:38 AM POST http://127.0.0.1:53067/session/b03d9a78adcb1421353c7d2a63f1fd87/element/0.22071389637487915-2/click {"id": "0.22071389637487915-2", "sessionId": "b03d9a78adcb1421353c7d2a63f1fd87"}
+02/11/2019 05:51:40 AM http://127.0.0.1:53067 "POST /session/b03d9a78adcb1421353c7d2a63f1fd87/element/0.22071389637487915-2/click HTTP/1.1" 200 72
+02/11/2019 05:51:40 AM Finished Request
+02/11/2019 05:51:40 AM POST http://127.0.0.1:53067/session/b03d9a78adcb1421353c7d2a63f1fd87/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocName')]", "sessionId": "b03d9a78adcb1421353c7d2a63f1fd87"}
+02/11/2019 05:51:40 AM http://127.0.0.1:53067 "POST /session/b03d9a78adcb1421353c7d2a63f1fd87/element HTTP/1.1" 200 102
+02/11/2019 05:51:40 AM Finished Request
+02/11/2019 05:51:40 AM POST http://127.0.0.1:53067/session/b03d9a78adcb1421353c7d2a63f1fd87/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDate')]", "sessionId": "b03d9a78adcb1421353c7d2a63f1fd87"}
+02/11/2019 05:51:40 AM http://127.0.0.1:53067 "POST /session/b03d9a78adcb1421353c7d2a63f1fd87/element HTTP/1.1" 200 102
+02/11/2019 05:51:40 AM Finished Request
+02/11/2019 05:51:40 AM POST http://127.0.0.1:53067/session/b03d9a78adcb1421353c7d2a63f1fd87/element {"using": "xpath", "value": "//span[contains(@id,'lblRecNum')]", "sessionId": "b03d9a78adcb1421353c7d2a63f1fd87"}
+02/11/2019 05:51:40 AM http://127.0.0.1:53067 "POST /session/b03d9a78adcb1421353c7d2a63f1fd87/element HTTP/1.1" 200 102
+02/11/2019 05:51:40 AM Finished Request
+02/11/2019 05:51:40 AM POST http://127.0.0.1:53067/session/b03d9a78adcb1421353c7d2a63f1fd87/element {"using": "xpath", "value": "//span[contains(@id,'lblRecDocCode')]", "sessionId": "b03d9a78adcb1421353c7d2a63f1fd87"}
+02/11/2019 05:51:40 AM http://127.0.0.1:53067 "POST /session/b03d9a78adcb1421353c7d2a63f1fd87/element HTTP/1.1" 200 102
+02/11/2019 05:51:40 AM Finished Request
+02/11/2019 05:51:40 AM GET http://127.0.0.1:53067/session/b03d9a78adcb1421353c7d2a63f1fd87/element/0.6368812847531236-2/text {"id": "0.6368812847531236-2", "sessionId": "b03d9a78adcb1421353c7d2a63f1fd87"}
+02/11/2019 05:51:40 AM http://127.0.0.1:53067 "GET /session/b03d9a78adcb1421353c7d2a63f1fd87/element/0.6368812847531236-2/text HTTP/1.1" 200 90
+02/11/2019 05:51:40 AM Finished Request
+02/11/2019 05:51:40 AM GET http://127.0.0.1:53067/session/b03d9a78adcb1421353c7d2a63f1fd87/element/0.6368812847531236-4/text {"id": "0.6368812847531236-4", "sessionId": "b03d9a78adcb1421353c7d2a63f1fd87"}
+02/11/2019 05:51:40 AM http://127.0.0.1:53067 "GET /session/b03d9a78adcb1421353c7d2a63f1fd87/element/0.6368812847531236-4/text HTTP/1.1" 200 78
+02/11/2019 05:51:40 AM Finished Request
+02/11/2019 05:51:40 AM GET http://127.0.0.1:53067/session/b03d9a78adcb1421353c7d2a63f1fd87/element/0.6368812847531236-3/text {"id": "0.6368812847531236-3", "sessionId": "b03d9a78adcb1421353c7d2a63f1fd87"}
+02/11/2019 05:51:40 AM http://127.0.0.1:53067 "GET /session/b03d9a78adcb1421353c7d2a63f1fd87/element/0.6368812847531236-3/text HTTP/1.1" 200 81
+02/11/2019 05:51:40 AM Finished Request
+02/11/2019 05:51:40 AM GET http://127.0.0.1:53067/session/b03d9a78adcb1421353c7d2a63f1fd87/element/0.6368812847531236-1/text {"id": "0.6368812847531236-1", "sessionId": "b03d9a78adcb1421353c7d2a63f1fd87"}
+02/11/2019 05:51:40 AM http://127.0.0.1:53067 "GET /session/b03d9a78adcb1421353c7d2a63f1fd87/element/0.6368812847531236-1/text HTTP/1.1" 200 120
+02/11/2019 05:51:40 AM Finished Request
+02/11/2019 05:51:40 AM POST http://127.0.0.1:53067/session/b03d9a78adcb1421353c7d2a63f1fd87/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "b03d9a78adcb1421353c7d2a63f1fd87"}
+02/11/2019 05:51:41 AM http://127.0.0.1:53067 "POST /session/b03d9a78adcb1421353c7d2a63f1fd87/execute HTTP/1.1" 200 72
+02/11/2019 05:51:41 AM Finished Request
+02/11/2019 05:51:44 AM POST http://127.0.0.1:53067/session/b03d9a78adcb1421353c7d2a63f1fd87/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td/a", "sessionId": "b03d9a78adcb1421353c7d2a63f1fd87"}
+02/11/2019 05:51:44 AM http://127.0.0.1:53067 "POST /session/b03d9a78adcb1421353c7d2a63f1fd87/elements HTTP/1.1" 200 780
+02/11/2019 05:51:44 AM Finished Request
+02/11/2019 05:51:44 AM POST http://127.0.0.1:53067/session/b03d9a78adcb1421353c7d2a63f1fd87/element {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td[1]", "sessionId": "b03d9a78adcb1421353c7d2a63f1fd87"}
+02/11/2019 05:51:44 AM http://127.0.0.1:53067 "POST /session/b03d9a78adcb1421353c7d2a63f1fd87/element HTTP/1.1" 200 103
+02/11/2019 05:51:44 AM Finished Request
+02/11/2019 05:51:44 AM GET http://127.0.0.1:53067/session/b03d9a78adcb1421353c7d2a63f1fd87/element/0.8984225067812956-21/text {"id": "0.8984225067812956-21", "sessionId": "b03d9a78adcb1421353c7d2a63f1fd87"}
+02/11/2019 05:51:44 AM http://127.0.0.1:53067 "GET /session/b03d9a78adcb1421353c7d2a63f1fd87/element/0.8984225067812956-21/text HTTP/1.1" 200 88
+02/11/2019 05:51:44 AM Finished Request

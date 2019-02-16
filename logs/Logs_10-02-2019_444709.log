@@ -1,0 +1,56 @@
+02/10/2019 03:17:47 PM POST http://127.0.0.1:64907/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized", "--disable-extensions", "--user-data-dir=C:\\Users\\sujha\\AppData\\Local\\Google\\Chrome\\User Data\\Default"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized", "--disable-extensions", "--user-data-dir=C:\\Users\\sujha\\AppData\\Local\\Google\\Chrome\\User Data\\Default"]}}}
+02/10/2019 03:17:47 PM Starting new HTTP connection (1): 127.0.0.1:64907
+02/10/2019 03:17:49 PM http://127.0.0.1:64907 "POST /session HTTP/1.1" 200 836
+02/10/2019 03:17:49 PM Finished Request
+02/10/2019 03:17:49 PM POST http://127.0.0.1:64907/session/8a15b585df80ca4feace581fa7e67302/url {"url": "https://recorder.maricopa.gov/recdocdata/", "sessionId": "8a15b585df80ca4feace581fa7e67302"}
+02/10/2019 03:17:55 PM http://127.0.0.1:64907 "POST /session/8a15b585df80ca4feace581fa7e67302/url HTTP/1.1" 200 72
+02/10/2019 03:17:55 PM Finished Request
+02/10/2019 03:17:55 PM GET http://127.0.0.1:64907/session/8a15b585df80ca4feace581fa7e67302/cookie {"sessionId": "8a15b585df80ca4feace581fa7e67302"}
+02/10/2019 03:17:55 PM http://127.0.0.1:64907 "GET /session/8a15b585df80ca4feace581fa7e67302/cookie HTTP/1.1" 200 972
+02/10/2019 03:17:55 PM Finished Request
+02/10/2019 03:17:55 PM Successfully launched the Home Page
+02/10/2019 03:18:00 PM POST http://127.0.0.1:64907/session/8a15b585df80ca4feace581fa7e67302/element {"using": "xpath", "value": "//label[text() = 'Business Name:'] / parent::div//input", "sessionId": "8a15b585df80ca4feace581fa7e67302"}
+02/10/2019 03:18:00 PM http://127.0.0.1:64907 "POST /session/8a15b585df80ca4feace581fa7e67302/element HTTP/1.1" 200 103
+02/10/2019 03:18:00 PM Finished Request
+02/10/2019 03:18:00 PM POST http://127.0.0.1:64907/session/8a15b585df80ca4feace581fa7e67302/element/0.27500543947670075-1/value {"text": "CAPITAL FUND", "value": ["C", "A", "P", "I", "T", "A", "L", " ", "F", "U", "N", "D"], "id": "0.27500543947670075-1", "sessionId": "8a15b585df80ca4feace581fa7e67302"}
+02/10/2019 03:18:01 PM http://127.0.0.1:64907 "POST /session/8a15b585df80ca4feace581fa7e67302/element/0.27500543947670075-1/value HTTP/1.1" 200 72
+02/10/2019 03:18:01 PM Finished Request
+02/10/2019 03:18:01 PM POST http://127.0.0.1:64907/session/8a15b585df80ca4feace581fa7e67302/element {"using": "xpath", "value": "//label[contains(@for,'PickerBegin')]/parent::p/parent::div//input[contains(@id,'datepicker')]", "sessionId": "8a15b585df80ca4feace581fa7e67302"}
+02/10/2019 03:18:01 PM http://127.0.0.1:64907 "POST /session/8a15b585df80ca4feace581fa7e67302/element HTTP/1.1" 200 103
+02/10/2019 03:18:01 PM Finished Request
+02/10/2019 03:18:01 PM POST http://127.0.0.1:64907/session/8a15b585df80ca4feace581fa7e67302/element/0.27500543947670075-2/value {"text": "1/1/2019", "value": ["1", "/", "1", "/", "2", "0", "1", "9"], "id": "0.27500543947670075-2", "sessionId": "8a15b585df80ca4feace581fa7e67302"}
+02/10/2019 03:18:01 PM http://127.0.0.1:64907 "POST /session/8a15b585df80ca4feace581fa7e67302/element/0.27500543947670075-2/value HTTP/1.1" 200 72
+02/10/2019 03:18:01 PM Finished Request
+02/10/2019 03:18:01 PM POST http://127.0.0.1:64907/session/8a15b585df80ca4feace581fa7e67302/element {"using": "xpath", "value": "//label[contains(@for,'PickerEnd')]/parent::p/parent::div//input[contains(@id,'datepicker')]", "sessionId": "8a15b585df80ca4feace581fa7e67302"}
+02/10/2019 03:18:01 PM http://127.0.0.1:64907 "POST /session/8a15b585df80ca4feace581fa7e67302/element HTTP/1.1" 200 103
+02/10/2019 03:18:01 PM Finished Request
+02/10/2019 03:18:01 PM POST http://127.0.0.1:64907/session/8a15b585df80ca4feace581fa7e67302/element/0.27500543947670075-3/value {"text": "1/10/2019", "value": ["1", "/", "1", "0", "/", "2", "0", "1", "9"], "id": "0.27500543947670075-3", "sessionId": "8a15b585df80ca4feace581fa7e67302"}
+02/10/2019 03:18:01 PM http://127.0.0.1:64907 "POST /session/8a15b585df80ca4feace581fa7e67302/element/0.27500543947670075-3/value HTTP/1.1" 200 72
+02/10/2019 03:18:01 PM Finished Request
+02/10/2019 03:18:01 PM POST http://127.0.0.1:64907/session/8a15b585df80ca4feace581fa7e67302/element {"using": "xpath", "value": "//input[@type='submit' and contains(@id,'btnSearch') and contains(@title,'Click')]", "sessionId": "8a15b585df80ca4feace581fa7e67302"}
+02/10/2019 03:18:01 PM http://127.0.0.1:64907 "POST /session/8a15b585df80ca4feace581fa7e67302/element HTTP/1.1" 200 103
+02/10/2019 03:18:01 PM Finished Request
+02/10/2019 03:18:01 PM POST http://127.0.0.1:64907/session/8a15b585df80ca4feace581fa7e67302/element/0.27500543947670075-4/click {"id": "0.27500543947670075-4", "sessionId": "8a15b585df80ca4feace581fa7e67302"}
+02/10/2019 03:18:20 PM http://127.0.0.1:64907 "POST /session/8a15b585df80ca4feace581fa7e67302/element/0.27500543947670075-4/click HTTP/1.1" 200 72
+02/10/2019 03:18:20 PM Finished Request
+02/10/2019 03:18:30 PM POST http://127.0.0.1:64907/session/8a15b585df80ca4feace581fa7e67302/elements {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td/a", "sessionId": "8a15b585df80ca4feace581fa7e67302"}
+02/10/2019 03:18:30 PM http://127.0.0.1:64907 "POST /session/8a15b585df80ca4feace581fa7e67302/elements HTTP/1.1" 200 780
+02/10/2019 03:18:30 PM Finished Request
+02/10/2019 03:18:30 PM POST http://127.0.0.1:64907/session/8a15b585df80ca4feace581fa7e67302/element {"using": "xpath", "value": "//div[contains(@id,'pnlButtons') and not(@class)]//input[contains(@id,'btnPageDown')]", "sessionId": "8a15b585df80ca4feace581fa7e67302"}
+02/10/2019 03:18:30 PM http://127.0.0.1:64907 "POST /session/8a15b585df80ca4feace581fa7e67302/element HTTP/1.1" 200 103
+02/10/2019 03:18:30 PM Finished Request
+02/10/2019 03:18:30 PM POST http://127.0.0.1:64907/session/8a15b585df80ca4feace581fa7e67302/element {"using": "xpath", "value": "//table[contains(@id,'tblRecSearch')]//tr/following-sibling::tr/td[1]", "sessionId": "8a15b585df80ca4feace581fa7e67302"}
+02/10/2019 03:18:30 PM http://127.0.0.1:64907 "POST /session/8a15b585df80ca4feace581fa7e67302/element HTTP/1.1" 200 103
+02/10/2019 03:18:30 PM Finished Request
+02/10/2019 03:18:30 PM GET http://127.0.0.1:64907/session/8a15b585df80ca4feace581fa7e67302/element/0.9355980465451839-22/text {"id": "0.9355980465451839-22", "sessionId": "8a15b585df80ca4feace581fa7e67302"}
+02/10/2019 03:18:30 PM http://127.0.0.1:64907 "GET /session/8a15b585df80ca4feace581fa7e67302/element/0.9355980465451839-22/text HTTP/1.1" 200 88
+02/10/2019 03:18:30 PM Finished Request
+02/10/2019 03:23:15 PM POST http://127.0.0.1:64907/session/8a15b585df80ca4feace581fa7e67302/element {"using": "xpath", "value": "//div[contains(@id,'pnlButtons') and not(@class)]//input[contains(@id,'btnPageDown')]", "sessionId": "8a15b585df80ca4feace581fa7e67302"}
+02/10/2019 03:23:15 PM http://127.0.0.1:64907 "POST /session/8a15b585df80ca4feace581fa7e67302/element HTTP/1.1" 200 103
+02/10/2019 03:23:15 PM Finished Request
+02/10/2019 03:23:15 PM POST http://127.0.0.1:64907/session/8a15b585df80ca4feace581fa7e67302/element/0.9355980465451839-21/click {"id": "0.9355980465451839-21", "sessionId": "8a15b585df80ca4feace581fa7e67302"}
+02/10/2019 03:23:21 PM http://127.0.0.1:64907 "POST /session/8a15b585df80ca4feace581fa7e67302/element/0.9355980465451839-21/click HTTP/1.1" 200 72
+02/10/2019 03:23:21 PM Finished Request
+02/10/2019 03:23:26 PM POST http://127.0.0.1:64907/session/8a15b585df80ca4feace581fa7e67302/element {"using": "xpath", "value": "//div[contains(@id,'pnlButtons') and not(@class)]//input[contains(@id,'btnPageDown')]", "sessionId": "8a15b585df80ca4feace581fa7e67302"}
+02/10/2019 03:23:26 PM http://127.0.0.1:64907 "POST /session/8a15b585df80ca4feace581fa7e67302/element HTTP/1.1" 200 102
+02/10/2019 03:23:26 PM Finished Request

@@ -1,0 +1,32 @@
+02/11/2019 06:21:09 PM POST http://127.0.0.1:54267/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized", "--disable-extensions"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized", "--disable-extensions"]}}}
+02/11/2019 06:21:09 PM Starting new HTTP connection (1): 127.0.0.1:54267
+02/11/2019 06:21:11 PM http://127.0.0.1:54267 "POST /session HTTP/1.1" 200 829
+02/11/2019 06:21:11 PM Finished Request
+02/11/2019 06:21:11 PM POST http://127.0.0.1:54267/session/38d56fdb8c47101ec00b750150397f41/url {"url": "https://mcassessor.maricopa.gov/", "sessionId": "38d56fdb8c47101ec00b750150397f41"}
+02/11/2019 06:21:21 PM http://127.0.0.1:54267 "POST /session/38d56fdb8c47101ec00b750150397f41/url HTTP/1.1" 200 72
+02/11/2019 06:21:21 PM Finished Request
+02/11/2019 06:21:21 PM GET http://127.0.0.1:54267/session/38d56fdb8c47101ec00b750150397f41/cookie {"sessionId": "38d56fdb8c47101ec00b750150397f41"}
+02/11/2019 06:21:21 PM http://127.0.0.1:54267 "GET /session/38d56fdb8c47101ec00b750150397f41/cookie HTTP/1.1" 200 603
+02/11/2019 06:21:21 PM Finished Request
+02/11/2019 06:21:21 PM Successfully launched the Home Page
+02/11/2019 06:21:26 PM POST http://127.0.0.1:54267/session/38d56fdb8c47101ec00b750150397f41/element {"using": "xpath", "value": "//input[@class='homeSearchField']", "sessionId": "38d56fdb8c47101ec00b750150397f41"}
+02/11/2019 06:21:26 PM http://127.0.0.1:54267 "POST /session/38d56fdb8c47101ec00b750150397f41/element HTTP/1.1" 200 104
+02/11/2019 06:21:26 PM Finished Request
+02/11/2019 06:21:26 PM POST http://127.0.0.1:54267/session/38d56fdb8c47101ec00b750150397f41/element/0.062301833513606075-1/value {"text": "ron herb", "value": ["r", "o", "n", " ", "h", "e", "r", "b"], "id": "0.062301833513606075-1", "sessionId": "38d56fdb8c47101ec00b750150397f41"}
+02/11/2019 06:21:26 PM http://127.0.0.1:54267 "POST /session/38d56fdb8c47101ec00b750150397f41/element/0.062301833513606075-1/value HTTP/1.1" 200 72
+02/11/2019 06:21:26 PM Finished Request
+02/11/2019 06:21:26 PM POST http://127.0.0.1:54267/session/38d56fdb8c47101ec00b750150397f41/element {"using": "xpath", "value": "//button[@class='homeSearchBtn']", "sessionId": "38d56fdb8c47101ec00b750150397f41"}
+02/11/2019 06:21:26 PM http://127.0.0.1:54267 "POST /session/38d56fdb8c47101ec00b750150397f41/element HTTP/1.1" 200 104
+02/11/2019 06:21:26 PM Finished Request
+02/11/2019 06:21:26 PM POST http://127.0.0.1:54267/session/38d56fdb8c47101ec00b750150397f41/element/0.062301833513606075-2/click {"id": "0.062301833513606075-2", "sessionId": "38d56fdb8c47101ec00b750150397f41"}
+02/11/2019 06:21:28 PM http://127.0.0.1:54267 "POST /session/38d56fdb8c47101ec00b750150397f41/element/0.062301833513606075-2/click HTTP/1.1" 200 72
+02/11/2019 06:21:28 PM Finished Request
+02/11/2019 06:21:39 PM POST http://127.0.0.1:54267/session/38d56fdb8c47101ec00b750150397f41/elements {"using": "xpath", "value": "//div[@id='real-property-results-section']//td[@class='collapsing one wide']//a", "sessionId": "38d56fdb8c47101ec00b750150397f41"}
+02/11/2019 06:21:39 PM http://127.0.0.1:54267 "POST /session/38d56fdb8c47101ec00b750150397f41/elements HTTP/1.1" 200 985
+02/11/2019 06:21:39 PM Finished Request
+02/11/2019 06:21:41 PM POST http://127.0.0.1:54267/session/38d56fdb8c47101ec00b750150397f41/element/0.23458801783915373-1/click {"id": "0.23458801783915373-1", "sessionId": "38d56fdb8c47101ec00b750150397f41"}
+02/11/2019 06:21:44 PM http://127.0.0.1:54267 "POST /session/38d56fdb8c47101ec00b750150397f41/element/0.23458801783915373-1/click HTTP/1.1" 200 72
+02/11/2019 06:21:44 PM Finished Request
+02/11/2019 06:21:54 PM POST http://127.0.0.1:54267/session/38d56fdb8c47101ec00b750150397f41/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "38d56fdb8c47101ec00b750150397f41"}
+02/11/2019 06:21:56 PM http://127.0.0.1:54267 "POST /session/38d56fdb8c47101ec00b750150397f41/execute HTTP/1.1" 200 72
+02/11/2019 06:21:56 PM Finished Request

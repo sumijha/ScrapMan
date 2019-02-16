@@ -1,0 +1,969 @@
+02/11/2019 11:48:00 PM POST http://127.0.0.1:54865/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized", "--disable-extensions"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized", "--disable-extensions"]}}}
+02/11/2019 11:48:00 PM Starting new HTTP connection (1): 127.0.0.1:54865
+02/11/2019 11:48:02 PM http://127.0.0.1:54865 "POST /session HTTP/1.1" 200 828
+02/11/2019 11:48:02 PM Finished Request
+02/11/2019 11:48:02 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/url {"url": "https://mcassessor.maricopa.gov/", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:28 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/url HTTP/1.1" 200 72
+02/11/2019 11:48:28 PM Finished Request
+02/11/2019 11:48:28 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/cookie {"sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:28 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/cookie HTTP/1.1" 200 604
+02/11/2019 11:48:28 PM Finished Request
+02/11/2019 11:48:28 PM Successfully launched the Home Page
+02/11/2019 11:48:33 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//input[@class='homeSearchField']", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:33 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:48:33 PM Finished Request
+02/11/2019 11:48:33 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.09772506613587617-1/value {"text": "ron herb", "value": ["r", "o", "n", " ", "h", "e", "r", "b"], "id": "0.09772506613587617-1", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:33 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.09772506613587617-1/value HTTP/1.1" 200 72
+02/11/2019 11:48:33 PM Finished Request
+02/11/2019 11:48:33 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//button[@class='homeSearchBtn']", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:33 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:48:33 PM Finished Request
+02/11/2019 11:48:33 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.09772506613587617-2/click {"id": "0.09772506613587617-2", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:37 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.09772506613587617-2/click HTTP/1.1" 200 72
+02/11/2019 11:48:37 PM Finished Request
+02/11/2019 11:48:41 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//i[@id='search-button']", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:41 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:48:41 PM Finished Request
+02/11/2019 11:48:41 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.8765689202411482-1/click {"id": "0.8765689202411482-1", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:45 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.8765689202411482-1/click HTTP/1.1" 200 72
+02/11/2019 11:48:45 PM Finished Request
+02/11/2019 11:48:48 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[@id='rental-results-section']//td[@class='collapsing one wide']//a", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:48 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:48:48 PM Finished Request
+02/11/2019 11:48:48 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/execute {"script": "arguments[0].scrollIntoView();", "args": [{"ELEMENT": "0.3348209272747409-1", "element-6066-11e4-a52e-4f735466cecf": "0.3348209272747409-1"}], "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:48 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/execute HTTP/1.1" 200 72
+02/11/2019 11:48:48 PM Finished Request
+02/11/2019 11:48:48 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/elements {"using": "xpath", "value": "//div[@id='rental-results-section']//td[@class='collapsing one wide']//a", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:48 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/elements HTTP/1.1" 200 492
+02/11/2019 11:48:48 PM Finished Request
+02/11/2019 11:48:48 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/execute {"script": "arguments[0].click();", "args": [{"ELEMENT": "0.3348209272747409-1", "element-6066-11e4-a52e-4f735466cecf": "0.3348209272747409-1"}], "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:52 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/execute HTTP/1.1" 200 72
+02/11/2019 11:48:52 PM Finished Request
+02/11/2019 11:48:53 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "(//h3[@class='ui huge basic header' and text()])[1]", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:53 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:48:53 PM Finished Request
+02/11/2019 11:48:53 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "(//h3[@class='ui huge basic header' and text()])[2]", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:53 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:48:53 PM Finished Request
+02/11/2019 11:48:53 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Property Information']/parent::div//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:53 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:48:53 PM Finished Request
+02/11/2019 11:48:53 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Owner Information']/parent::div//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:53 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:48:53 PM Finished Request
+02/11/2019 11:48:53 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Property Information']/parent::td//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:53 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 385
+02/11/2019 11:48:53 PM Finished Request
+02/11/2019 11:48:53 PM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Property Information']/parent::td//a/strong"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 11:48:53 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Owner Information']/parent::td//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:53 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 382
+02/11/2019 11:48:53 PM Finished Request
+02/11/2019 11:48:53 PM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Owner Information']/parent::td//a/strong"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 11:48:53 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Mailing Address']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:53 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:48:53 PM Finished Request
+02/11/2019 11:48:53 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Deed Number']/following-sibling::td/a", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:53 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:48:53 PM Finished Request
+02/11/2019 11:48:53 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Last Deed Date']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:53 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:48:53 PM Finished Request
+02/11/2019 11:48:53 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Sale Date']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:53 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:48:53 PM Finished Request
+02/11/2019 11:48:53 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Sale Price']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:53 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:48:53 PM Finished Request
+02/11/2019 11:48:53 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6758692096875829-1/text {"id": "0.6758692096875829-1", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:53 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6758692096875829-1/text HTTP/1.1" 200 80
+02/11/2019 11:48:53 PM Finished Request
+02/11/2019 11:48:53 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6758692096875829-2/text {"id": "0.6758692096875829-2", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:53 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6758692096875829-2/text HTTP/1.1" 200 94
+02/11/2019 11:48:53 PM Finished Request
+02/11/2019 11:48:53 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6758692096875829-3/text {"id": "0.6758692096875829-3", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:53 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6758692096875829-3/text HTTP/1.1" 200 98
+02/11/2019 11:48:53 PM Finished Request
+02/11/2019 11:48:53 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6758692096875829-4/text {"id": "0.6758692096875829-4", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:53 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6758692096875829-4/text HTTP/1.1" 200 83
+02/11/2019 11:48:53 PM Finished Request
+02/11/2019 11:48:53 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6758692096875829-5/text {"id": "0.6758692096875829-5", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:53 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6758692096875829-5/text HTTP/1.1" 200 105
+02/11/2019 11:48:53 PM Finished Request
+02/11/2019 11:48:53 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6758692096875829-6/text {"id": "0.6758692096875829-6", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:53 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6758692096875829-6/text HTTP/1.1" 200 79
+02/11/2019 11:48:53 PM Finished Request
+02/11/2019 11:48:53 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6758692096875829-7/text {"id": "0.6758692096875829-7", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:53 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6758692096875829-7/text HTTP/1.1" 200 80
+02/11/2019 11:48:53 PM Finished Request
+02/11/2019 11:48:53 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6758692096875829-8/text {"id": "0.6758692096875829-8", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:53 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6758692096875829-8/text HTTP/1.1" 200 73
+02/11/2019 11:48:53 PM Finished Request
+02/11/2019 11:48:53 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6758692096875829-9/text {"id": "0.6758692096875829-9", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:53 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6758692096875829-9/text HTTP/1.1" 200 73
+02/11/2019 11:48:53 PM Finished Request
+02/11/2019 11:48:53 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:48:58 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/execute HTTP/1.1" 200 72
+02/11/2019 11:48:58 PM Finished Request
+02/11/2019 11:49:01 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/elements {"using": "xpath", "value": "//div[@id='rental-results-section']//td[@class='collapsing one wide']//a", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:01 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/elements HTTP/1.1" 200 492
+02/11/2019 11:49:01 PM Finished Request
+02/11/2019 11:49:01 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/execute {"script": "arguments[0].click();", "args": [{"ELEMENT": "0.8094552332224854-2", "element-6066-11e4-a52e-4f735466cecf": "0.8094552332224854-2"}], "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:03 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/execute HTTP/1.1" 200 72
+02/11/2019 11:49:03 PM Finished Request
+02/11/2019 11:49:04 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "(//h3[@class='ui huge basic header' and text()])[1]", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:04 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:04 PM Finished Request
+02/11/2019 11:49:04 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "(//h3[@class='ui huge basic header' and text()])[2]", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:04 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:04 PM Finished Request
+02/11/2019 11:49:04 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Property Information']/parent::div//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:04 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 386
+02/11/2019 11:49:04 PM Finished Request
+02/11/2019 11:49:04 PM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Property Information']/parent::div//a/strong"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 11:49:04 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Owner Information']/parent::div//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:05 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 383
+02/11/2019 11:49:05 PM Finished Request
+02/11/2019 11:49:05 PM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Owner Information']/parent::div//a/strong"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 11:49:05 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Property Information']/parent::td//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:05 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:05 PM Finished Request
+02/11/2019 11:49:05 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Owner Information']/parent::td//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:05 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:05 PM Finished Request
+02/11/2019 11:49:05 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Mailing Address']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:05 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:05 PM Finished Request
+02/11/2019 11:49:05 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Deed Number']/following-sibling::td/a", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:05 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:05 PM Finished Request
+02/11/2019 11:49:05 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Last Deed Date']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:05 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:05 PM Finished Request
+02/11/2019 11:49:05 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Sale Date']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:05 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:05 PM Finished Request
+02/11/2019 11:49:05 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Sale Price']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:05 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:05 PM Finished Request
+02/11/2019 11:49:05 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.8705290160025356-1/text {"id": "0.8705290160025356-1", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:05 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.8705290160025356-1/text HTTP/1.1" 200 80
+02/11/2019 11:49:05 PM Finished Request
+02/11/2019 11:49:05 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.8705290160025356-2/text {"id": "0.8705290160025356-2", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:05 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.8705290160025356-2/text HTTP/1.1" 200 95
+02/11/2019 11:49:05 PM Finished Request
+02/11/2019 11:49:05 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.8705290160025356-3/text {"id": "0.8705290160025356-3", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:05 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.8705290160025356-3/text HTTP/1.1" 200 103
+02/11/2019 11:49:05 PM Finished Request
+02/11/2019 11:49:05 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.8705290160025356-4/text {"id": "0.8705290160025356-4", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:05 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.8705290160025356-4/text HTTP/1.1" 200 83
+02/11/2019 11:49:05 PM Finished Request
+02/11/2019 11:49:05 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.8705290160025356-5/text {"id": "0.8705290160025356-5", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:05 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.8705290160025356-5/text HTTP/1.1" 200 110
+02/11/2019 11:49:05 PM Finished Request
+02/11/2019 11:49:05 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.8705290160025356-6/text {"id": "0.8705290160025356-6", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:05 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.8705290160025356-6/text HTTP/1.1" 200 79
+02/11/2019 11:49:05 PM Finished Request
+02/11/2019 11:49:05 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.8705290160025356-7/text {"id": "0.8705290160025356-7", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:05 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.8705290160025356-7/text HTTP/1.1" 200 80
+02/11/2019 11:49:05 PM Finished Request
+02/11/2019 11:49:05 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.8705290160025356-8/text {"id": "0.8705290160025356-8", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:05 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.8705290160025356-8/text HTTP/1.1" 200 73
+02/11/2019 11:49:05 PM Finished Request
+02/11/2019 11:49:05 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.8705290160025356-9/text {"id": "0.8705290160025356-9", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:05 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.8705290160025356-9/text HTTP/1.1" 200 73
+02/11/2019 11:49:05 PM Finished Request
+02/11/2019 11:49:05 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:07 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/execute HTTP/1.1" 200 72
+02/11/2019 11:49:07 PM Finished Request
+02/11/2019 11:49:10 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/elements {"using": "xpath", "value": "//div[@id='rental-results-section']//td[@class='collapsing one wide']//a", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:10 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/elements HTTP/1.1" 200 492
+02/11/2019 11:49:10 PM Finished Request
+02/11/2019 11:49:10 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/execute {"script": "arguments[0].click();", "args": [{"ELEMENT": "0.8986218876051266-3", "element-6066-11e4-a52e-4f735466cecf": "0.8986218876051266-3"}], "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:16 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/execute HTTP/1.1" 200 72
+02/11/2019 11:49:16 PM Finished Request
+02/11/2019 11:49:17 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "(//h3[@class='ui huge basic header' and text()])[1]", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:17 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:49:17 PM Finished Request
+02/11/2019 11:49:17 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "(//h3[@class='ui huge basic header' and text()])[2]", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:17 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:49:17 PM Finished Request
+02/11/2019 11:49:17 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Property Information']/parent::div//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:17 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 386
+02/11/2019 11:49:17 PM Finished Request
+02/11/2019 11:49:17 PM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Property Information']/parent::div//a/strong"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 11:49:17 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Owner Information']/parent::div//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:17 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 383
+02/11/2019 11:49:17 PM Finished Request
+02/11/2019 11:49:17 PM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Owner Information']/parent::div//a/strong"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 11:49:17 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Property Information']/parent::td//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:17 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:49:17 PM Finished Request
+02/11/2019 11:49:17 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Owner Information']/parent::td//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:17 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:49:17 PM Finished Request
+02/11/2019 11:49:17 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Mailing Address']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:17 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:49:17 PM Finished Request
+02/11/2019 11:49:17 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Deed Number']/following-sibling::td/a", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:17 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:49:17 PM Finished Request
+02/11/2019 11:49:17 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Last Deed Date']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:17 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:49:17 PM Finished Request
+02/11/2019 11:49:17 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Sale Date']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:17 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:49:17 PM Finished Request
+02/11/2019 11:49:17 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Sale Price']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:17 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:49:17 PM Finished Request
+02/11/2019 11:49:17 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.36503208280654564-1/text {"id": "0.36503208280654564-1", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:17 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.36503208280654564-1/text HTTP/1.1" 200 80
+02/11/2019 11:49:17 PM Finished Request
+02/11/2019 11:49:17 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.36503208280654564-2/text {"id": "0.36503208280654564-2", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:17 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.36503208280654564-2/text HTTP/1.1" 200 95
+02/11/2019 11:49:17 PM Finished Request
+02/11/2019 11:49:17 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.36503208280654564-3/text {"id": "0.36503208280654564-3", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:17 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.36503208280654564-3/text HTTP/1.1" 200 99
+02/11/2019 11:49:17 PM Finished Request
+02/11/2019 11:49:17 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.36503208280654564-4/text {"id": "0.36503208280654564-4", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:17 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.36503208280654564-4/text HTTP/1.1" 200 83
+02/11/2019 11:49:17 PM Finished Request
+02/11/2019 11:49:17 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.36503208280654564-5/text {"id": "0.36503208280654564-5", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:17 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.36503208280654564-5/text HTTP/1.1" 200 110
+02/11/2019 11:49:17 PM Finished Request
+02/11/2019 11:49:17 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.36503208280654564-6/text {"id": "0.36503208280654564-6", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:17 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.36503208280654564-6/text HTTP/1.1" 200 79
+02/11/2019 11:49:17 PM Finished Request
+02/11/2019 11:49:17 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.36503208280654564-7/text {"id": "0.36503208280654564-7", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:17 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.36503208280654564-7/text HTTP/1.1" 200 80
+02/11/2019 11:49:17 PM Finished Request
+02/11/2019 11:49:17 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.36503208280654564-8/text {"id": "0.36503208280654564-8", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:17 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.36503208280654564-8/text HTTP/1.1" 200 73
+02/11/2019 11:49:17 PM Finished Request
+02/11/2019 11:49:17 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.36503208280654564-9/text {"id": "0.36503208280654564-9", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:17 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.36503208280654564-9/text HTTP/1.1" 200 73
+02/11/2019 11:49:17 PM Finished Request
+02/11/2019 11:49:17 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:20 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/execute HTTP/1.1" 200 72
+02/11/2019 11:49:20 PM Finished Request
+02/11/2019 11:49:23 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/elements {"using": "xpath", "value": "//div[@id='rental-results-section']//td[@class='collapsing one wide']//a", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:23 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/elements HTTP/1.1" 200 492
+02/11/2019 11:49:23 PM Finished Request
+02/11/2019 11:49:23 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/execute {"script": "arguments[0].click();", "args": [{"ELEMENT": "0.7017496406694586-4", "element-6066-11e4-a52e-4f735466cecf": "0.7017496406694586-4"}], "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:29 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/execute HTTP/1.1" 200 72
+02/11/2019 11:49:29 PM Finished Request
+02/11/2019 11:49:30 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "(//h3[@class='ui huge basic header' and text()])[1]", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:30 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:30 PM Finished Request
+02/11/2019 11:49:30 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "(//h3[@class='ui huge basic header' and text()])[2]", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:30 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:30 PM Finished Request
+02/11/2019 11:49:30 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Property Information']/parent::div//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:30 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 386
+02/11/2019 11:49:30 PM Finished Request
+02/11/2019 11:49:30 PM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Property Information']/parent::div//a/strong"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 11:49:30 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Owner Information']/parent::div//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:30 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 383
+02/11/2019 11:49:30 PM Finished Request
+02/11/2019 11:49:30 PM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Owner Information']/parent::div//a/strong"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 11:49:30 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Property Information']/parent::td//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:30 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:30 PM Finished Request
+02/11/2019 11:49:30 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Owner Information']/parent::td//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:30 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:30 PM Finished Request
+02/11/2019 11:49:30 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Mailing Address']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:30 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:30 PM Finished Request
+02/11/2019 11:49:30 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Deed Number']/following-sibling::td/a", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:30 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:30 PM Finished Request
+02/11/2019 11:49:30 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Last Deed Date']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:30 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:30 PM Finished Request
+02/11/2019 11:49:30 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Sale Date']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:30 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:30 PM Finished Request
+02/11/2019 11:49:30 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Sale Price']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:30 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:30 PM Finished Request
+02/11/2019 11:49:30 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.2484931997609079-1/text {"id": "0.2484931997609079-1", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:30 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.2484931997609079-1/text HTTP/1.1" 200 80
+02/11/2019 11:49:30 PM Finished Request
+02/11/2019 11:49:30 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.2484931997609079-2/text {"id": "0.2484931997609079-2", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:30 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.2484931997609079-2/text HTTP/1.1" 200 95
+02/11/2019 11:49:30 PM Finished Request
+02/11/2019 11:49:30 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.2484931997609079-3/text {"id": "0.2484931997609079-3", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:30 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.2484931997609079-3/text HTTP/1.1" 200 99
+02/11/2019 11:49:30 PM Finished Request
+02/11/2019 11:49:30 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.2484931997609079-4/text {"id": "0.2484931997609079-4", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:30 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.2484931997609079-4/text HTTP/1.1" 200 83
+02/11/2019 11:49:30 PM Finished Request
+02/11/2019 11:49:30 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.2484931997609079-5/text {"id": "0.2484931997609079-5", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:30 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.2484931997609079-5/text HTTP/1.1" 200 110
+02/11/2019 11:49:30 PM Finished Request
+02/11/2019 11:49:30 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.2484931997609079-6/text {"id": "0.2484931997609079-6", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:31 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.2484931997609079-6/text HTTP/1.1" 200 79
+02/11/2019 11:49:31 PM Finished Request
+02/11/2019 11:49:31 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.2484931997609079-7/text {"id": "0.2484931997609079-7", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:31 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.2484931997609079-7/text HTTP/1.1" 200 80
+02/11/2019 11:49:31 PM Finished Request
+02/11/2019 11:49:31 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.2484931997609079-8/text {"id": "0.2484931997609079-8", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:31 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.2484931997609079-8/text HTTP/1.1" 200 73
+02/11/2019 11:49:31 PM Finished Request
+02/11/2019 11:49:31 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.2484931997609079-9/text {"id": "0.2484931997609079-9", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:31 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.2484931997609079-9/text HTTP/1.1" 200 73
+02/11/2019 11:49:31 PM Finished Request
+02/11/2019 11:49:31 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:33 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/execute HTTP/1.1" 200 72
+02/11/2019 11:49:33 PM Finished Request
+02/11/2019 11:49:36 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/elements {"using": "xpath", "value": "//div[@id='rental-results-section']//td[@class='collapsing one wide']//a", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:36 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/elements HTTP/1.1" 200 504
+02/11/2019 11:49:36 PM Finished Request
+02/11/2019 11:49:36 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/execute {"script": "arguments[0].click();", "args": [{"ELEMENT": "0.22377296533102187-5", "element-6066-11e4-a52e-4f735466cecf": "0.22377296533102187-5"}], "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:41 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/execute HTTP/1.1" 200 72
+02/11/2019 11:49:41 PM Finished Request
+02/11/2019 11:49:42 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "(//h3[@class='ui huge basic header' and text()])[1]", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:42 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:42 PM Finished Request
+02/11/2019 11:49:42 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "(//h3[@class='ui huge basic header' and text()])[2]", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:42 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:42 PM Finished Request
+02/11/2019 11:49:42 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Property Information']/parent::div//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:42 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 386
+02/11/2019 11:49:42 PM Finished Request
+02/11/2019 11:49:42 PM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Property Information']/parent::div//a/strong"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 11:49:42 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Owner Information']/parent::div//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:42 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 383
+02/11/2019 11:49:42 PM Finished Request
+02/11/2019 11:49:42 PM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Owner Information']/parent::div//a/strong"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 11:49:42 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Property Information']/parent::td//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:42 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:42 PM Finished Request
+02/11/2019 11:49:42 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Owner Information']/parent::td//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:42 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:42 PM Finished Request
+02/11/2019 11:49:42 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Mailing Address']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:42 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:42 PM Finished Request
+02/11/2019 11:49:42 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Deed Number']/following-sibling::td/a", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:42 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:42 PM Finished Request
+02/11/2019 11:49:42 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Last Deed Date']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:42 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:42 PM Finished Request
+02/11/2019 11:49:42 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Sale Date']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:42 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:42 PM Finished Request
+02/11/2019 11:49:42 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Sale Price']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:42 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:42 PM Finished Request
+02/11/2019 11:49:42 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6383666439133282-1/text {"id": "0.6383666439133282-1", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:42 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6383666439133282-1/text HTTP/1.1" 200 80
+02/11/2019 11:49:42 PM Finished Request
+02/11/2019 11:49:42 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6383666439133282-2/text {"id": "0.6383666439133282-2", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:42 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6383666439133282-2/text HTTP/1.1" 200 95
+02/11/2019 11:49:42 PM Finished Request
+02/11/2019 11:49:42 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6383666439133282-3/text {"id": "0.6383666439133282-3", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:42 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6383666439133282-3/text HTTP/1.1" 200 98
+02/11/2019 11:49:42 PM Finished Request
+02/11/2019 11:49:42 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6383666439133282-4/text {"id": "0.6383666439133282-4", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:42 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6383666439133282-4/text HTTP/1.1" 200 86
+02/11/2019 11:49:42 PM Finished Request
+02/11/2019 11:49:42 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6383666439133282-5/text {"id": "0.6383666439133282-5", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:42 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6383666439133282-5/text HTTP/1.1" 200 103
+02/11/2019 11:49:42 PM Finished Request
+02/11/2019 11:49:42 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6383666439133282-6/text {"id": "0.6383666439133282-6", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:42 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6383666439133282-6/text HTTP/1.1" 200 79
+02/11/2019 11:49:42 PM Finished Request
+02/11/2019 11:49:42 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6383666439133282-7/text {"id": "0.6383666439133282-7", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:42 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6383666439133282-7/text HTTP/1.1" 200 80
+02/11/2019 11:49:42 PM Finished Request
+02/11/2019 11:49:42 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6383666439133282-8/text {"id": "0.6383666439133282-8", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:42 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6383666439133282-8/text HTTP/1.1" 200 73
+02/11/2019 11:49:42 PM Finished Request
+02/11/2019 11:49:42 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6383666439133282-9/text {"id": "0.6383666439133282-9", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:42 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6383666439133282-9/text HTTP/1.1" 200 73
+02/11/2019 11:49:42 PM Finished Request
+02/11/2019 11:49:42 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:44 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/execute HTTP/1.1" 200 72
+02/11/2019 11:49:44 PM Finished Request
+02/11/2019 11:49:47 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/elements {"using": "xpath", "value": "//div[@id='rental-results-section']//td[@class='collapsing one wide']//a", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:47 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/elements HTTP/1.1" 200 504
+02/11/2019 11:49:47 PM Finished Request
+02/11/2019 11:49:47 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/execute {"script": "arguments[0].click();", "args": [{"ELEMENT": "0.14078713442167445-6", "element-6066-11e4-a52e-4f735466cecf": "0.14078713442167445-6"}], "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:51 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/execute HTTP/1.1" 200 72
+02/11/2019 11:49:51 PM Finished Request
+02/11/2019 11:49:52 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "(//h3[@class='ui huge basic header' and text()])[1]", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:52 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:52 PM Finished Request
+02/11/2019 11:49:52 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "(//h3[@class='ui huge basic header' and text()])[2]", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:52 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:52 PM Finished Request
+02/11/2019 11:49:52 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Property Information']/parent::div//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:52 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 386
+02/11/2019 11:49:52 PM Finished Request
+02/11/2019 11:49:52 PM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Property Information']/parent::div//a/strong"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 11:49:52 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Owner Information']/parent::div//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:53 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 383
+02/11/2019 11:49:53 PM Finished Request
+02/11/2019 11:49:53 PM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Owner Information']/parent::div//a/strong"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 11:49:53 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Property Information']/parent::td//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:53 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:53 PM Finished Request
+02/11/2019 11:49:53 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Owner Information']/parent::td//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:53 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:53 PM Finished Request
+02/11/2019 11:49:53 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Mailing Address']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:53 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:53 PM Finished Request
+02/11/2019 11:49:53 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Deed Number']/following-sibling::td/a", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:53 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:53 PM Finished Request
+02/11/2019 11:49:53 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Last Deed Date']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:53 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:53 PM Finished Request
+02/11/2019 11:49:53 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Sale Date']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:53 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:53 PM Finished Request
+02/11/2019 11:49:53 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Sale Price']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:53 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:49:53 PM Finished Request
+02/11/2019 11:49:53 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.9647949449509279-1/text {"id": "0.9647949449509279-1", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:53 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.9647949449509279-1/text HTTP/1.1" 200 80
+02/11/2019 11:49:53 PM Finished Request
+02/11/2019 11:49:53 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.9647949449509279-2/text {"id": "0.9647949449509279-2", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:53 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.9647949449509279-2/text HTTP/1.1" 200 95
+02/11/2019 11:49:53 PM Finished Request
+02/11/2019 11:49:53 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.9647949449509279-3/text {"id": "0.9647949449509279-3", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:53 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.9647949449509279-3/text HTTP/1.1" 200 98
+02/11/2019 11:49:53 PM Finished Request
+02/11/2019 11:49:53 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.9647949449509279-4/text {"id": "0.9647949449509279-4", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:53 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.9647949449509279-4/text HTTP/1.1" 200 83
+02/11/2019 11:49:53 PM Finished Request
+02/11/2019 11:49:53 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.9647949449509279-5/text {"id": "0.9647949449509279-5", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:53 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.9647949449509279-5/text HTTP/1.1" 200 105
+02/11/2019 11:49:53 PM Finished Request
+02/11/2019 11:49:53 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.9647949449509279-6/text {"id": "0.9647949449509279-6", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:53 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.9647949449509279-6/text HTTP/1.1" 200 79
+02/11/2019 11:49:53 PM Finished Request
+02/11/2019 11:49:53 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.9647949449509279-7/text {"id": "0.9647949449509279-7", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:53 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.9647949449509279-7/text HTTP/1.1" 200 80
+02/11/2019 11:49:53 PM Finished Request
+02/11/2019 11:49:53 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.9647949449509279-8/text {"id": "0.9647949449509279-8", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:53 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.9647949449509279-8/text HTTP/1.1" 200 79
+02/11/2019 11:49:53 PM Finished Request
+02/11/2019 11:49:53 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.9647949449509279-9/text {"id": "0.9647949449509279-9", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:53 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.9647949449509279-9/text HTTP/1.1" 200 77
+02/11/2019 11:49:53 PM Finished Request
+02/11/2019 11:49:53 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:55 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/execute HTTP/1.1" 200 72
+02/11/2019 11:49:55 PM Finished Request
+02/11/2019 11:49:58 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/elements {"using": "xpath", "value": "//div[@id='rental-results-section']//td[@class='collapsing one wide']//a", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:49:58 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/elements HTTP/1.1" 200 492
+02/11/2019 11:49:58 PM Finished Request
+02/11/2019 11:49:58 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/execute {"script": "arguments[0].click();", "args": [{"ELEMENT": "0.8369936249150378-7", "element-6066-11e4-a52e-4f735466cecf": "0.8369936249150378-7"}], "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:03 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/execute HTTP/1.1" 200 72
+02/11/2019 11:50:03 PM Finished Request
+02/11/2019 11:50:04 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "(//h3[@class='ui huge basic header' and text()])[1]", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:04 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:04 PM Finished Request
+02/11/2019 11:50:04 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "(//h3[@class='ui huge basic header' and text()])[2]", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:04 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:04 PM Finished Request
+02/11/2019 11:50:04 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Property Information']/parent::div//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:04 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 386
+02/11/2019 11:50:04 PM Finished Request
+02/11/2019 11:50:04 PM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Property Information']/parent::div//a/strong"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 11:50:04 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Owner Information']/parent::div//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:04 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 383
+02/11/2019 11:50:04 PM Finished Request
+02/11/2019 11:50:04 PM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Owner Information']/parent::div//a/strong"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 11:50:04 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Property Information']/parent::td//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:04 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:04 PM Finished Request
+02/11/2019 11:50:04 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Owner Information']/parent::td//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:04 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:04 PM Finished Request
+02/11/2019 11:50:04 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Mailing Address']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:04 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:04 PM Finished Request
+02/11/2019 11:50:04 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Deed Number']/following-sibling::td/a", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:04 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:04 PM Finished Request
+02/11/2019 11:50:04 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Last Deed Date']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:04 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:04 PM Finished Request
+02/11/2019 11:50:04 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Sale Date']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:04 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:04 PM Finished Request
+02/11/2019 11:50:04 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Sale Price']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:04 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:04 PM Finished Request
+02/11/2019 11:50:04 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.15702510539084957-1/text {"id": "0.15702510539084957-1", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:04 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.15702510539084957-1/text HTTP/1.1" 200 80
+02/11/2019 11:50:04 PM Finished Request
+02/11/2019 11:50:04 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.15702510539084957-2/text {"id": "0.15702510539084957-2", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:04 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.15702510539084957-2/text HTTP/1.1" 200 95
+02/11/2019 11:50:04 PM Finished Request
+02/11/2019 11:50:04 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.15702510539084957-3/text {"id": "0.15702510539084957-3", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:04 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.15702510539084957-3/text HTTP/1.1" 200 102
+02/11/2019 11:50:04 PM Finished Request
+02/11/2019 11:50:04 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.15702510539084957-4/text {"id": "0.15702510539084957-4", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:04 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.15702510539084957-4/text HTTP/1.1" 200 83
+02/11/2019 11:50:04 PM Finished Request
+02/11/2019 11:50:04 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.15702510539084957-5/text {"id": "0.15702510539084957-5", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:04 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.15702510539084957-5/text HTTP/1.1" 200 105
+02/11/2019 11:50:04 PM Finished Request
+02/11/2019 11:50:04 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.15702510539084957-6/text {"id": "0.15702510539084957-6", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:04 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.15702510539084957-6/text HTTP/1.1" 200 79
+02/11/2019 11:50:04 PM Finished Request
+02/11/2019 11:50:04 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.15702510539084957-7/text {"id": "0.15702510539084957-7", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:05 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.15702510539084957-7/text HTTP/1.1" 200 80
+02/11/2019 11:50:05 PM Finished Request
+02/11/2019 11:50:05 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.15702510539084957-8/text {"id": "0.15702510539084957-8", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:05 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.15702510539084957-8/text HTTP/1.1" 200 73
+02/11/2019 11:50:05 PM Finished Request
+02/11/2019 11:50:05 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.15702510539084957-9/text {"id": "0.15702510539084957-9", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:05 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.15702510539084957-9/text HTTP/1.1" 200 73
+02/11/2019 11:50:05 PM Finished Request
+02/11/2019 11:50:05 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:07 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/execute HTTP/1.1" 200 72
+02/11/2019 11:50:07 PM Finished Request
+02/11/2019 11:50:10 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/elements {"using": "xpath", "value": "//div[@id='rental-results-section']//td[@class='collapsing one wide']//a", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:10 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/elements HTTP/1.1" 200 504
+02/11/2019 11:50:10 PM Finished Request
+02/11/2019 11:50:10 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/execute {"script": "arguments[0].click();", "args": [{"ELEMENT": "0.16024470229179366-8", "element-6066-11e4-a52e-4f735466cecf": "0.16024470229179366-8"}], "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:15 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/execute HTTP/1.1" 200 72
+02/11/2019 11:50:15 PM Finished Request
+02/11/2019 11:50:16 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "(//h3[@class='ui huge basic header' and text()])[1]", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:16 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:16 PM Finished Request
+02/11/2019 11:50:16 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "(//h3[@class='ui huge basic header' and text()])[2]", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:16 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:16 PM Finished Request
+02/11/2019 11:50:16 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Property Information']/parent::div//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:16 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 386
+02/11/2019 11:50:16 PM Finished Request
+02/11/2019 11:50:16 PM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Property Information']/parent::div//a/strong"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 11:50:16 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Owner Information']/parent::div//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:16 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 383
+02/11/2019 11:50:16 PM Finished Request
+02/11/2019 11:50:16 PM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Owner Information']/parent::div//a/strong"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 11:50:16 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Property Information']/parent::td//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:16 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:16 PM Finished Request
+02/11/2019 11:50:16 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Owner Information']/parent::td//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:16 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:16 PM Finished Request
+02/11/2019 11:50:16 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Mailing Address']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:16 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:16 PM Finished Request
+02/11/2019 11:50:16 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Deed Number']/following-sibling::td/a", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:16 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:16 PM Finished Request
+02/11/2019 11:50:16 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Last Deed Date']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:16 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:16 PM Finished Request
+02/11/2019 11:50:16 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Sale Date']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:16 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:16 PM Finished Request
+02/11/2019 11:50:16 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Sale Price']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:16 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:16 PM Finished Request
+02/11/2019 11:50:16 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.27206645974108357-1/text {"id": "0.27206645974108357-1", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:16 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.27206645974108357-1/text HTTP/1.1" 200 80
+02/11/2019 11:50:16 PM Finished Request
+02/11/2019 11:50:16 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.27206645974108357-2/text {"id": "0.27206645974108357-2", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:16 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.27206645974108357-2/text HTTP/1.1" 200 95
+02/11/2019 11:50:16 PM Finished Request
+02/11/2019 11:50:16 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.27206645974108357-3/text {"id": "0.27206645974108357-3", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:16 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.27206645974108357-3/text HTTP/1.1" 200 98
+02/11/2019 11:50:16 PM Finished Request
+02/11/2019 11:50:16 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.27206645974108357-4/text {"id": "0.27206645974108357-4", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:16 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.27206645974108357-4/text HTTP/1.1" 200 83
+02/11/2019 11:50:16 PM Finished Request
+02/11/2019 11:50:16 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.27206645974108357-5/text {"id": "0.27206645974108357-5", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:16 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.27206645974108357-5/text HTTP/1.1" 200 105
+02/11/2019 11:50:16 PM Finished Request
+02/11/2019 11:50:16 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.27206645974108357-6/text {"id": "0.27206645974108357-6", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:16 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.27206645974108357-6/text HTTP/1.1" 200 79
+02/11/2019 11:50:16 PM Finished Request
+02/11/2019 11:50:16 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.27206645974108357-7/text {"id": "0.27206645974108357-7", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:16 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.27206645974108357-7/text HTTP/1.1" 200 80
+02/11/2019 11:50:16 PM Finished Request
+02/11/2019 11:50:16 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.27206645974108357-8/text {"id": "0.27206645974108357-8", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:17 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.27206645974108357-8/text HTTP/1.1" 200 79
+02/11/2019 11:50:17 PM Finished Request
+02/11/2019 11:50:17 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.27206645974108357-9/text {"id": "0.27206645974108357-9", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:17 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.27206645974108357-9/text HTTP/1.1" 200 77
+02/11/2019 11:50:17 PM Finished Request
+02/11/2019 11:50:17 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:19 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/execute HTTP/1.1" 200 72
+02/11/2019 11:50:19 PM Finished Request
+02/11/2019 11:50:22 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/elements {"using": "xpath", "value": "//div[@id='rental-results-section']//td[@class='collapsing one wide']//a", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:22 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/elements HTTP/1.1" 200 492
+02/11/2019 11:50:22 PM Finished Request
+02/11/2019 11:50:22 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/execute {"script": "arguments[0].click();", "args": [{"ELEMENT": "0.7040956007324726-9", "element-6066-11e4-a52e-4f735466cecf": "0.7040956007324726-9"}], "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:27 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/execute HTTP/1.1" 200 72
+02/11/2019 11:50:27 PM Finished Request
+02/11/2019 11:50:28 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "(//h3[@class='ui huge basic header' and text()])[1]", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:28 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:50:28 PM Finished Request
+02/11/2019 11:50:28 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "(//h3[@class='ui huge basic header' and text()])[2]", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:28 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:50:28 PM Finished Request
+02/11/2019 11:50:28 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Property Information']/parent::div//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:28 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 386
+02/11/2019 11:50:28 PM Finished Request
+02/11/2019 11:50:28 PM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Property Information']/parent::div//a/strong"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 11:50:28 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Owner Information']/parent::div//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:28 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 383
+02/11/2019 11:50:28 PM Finished Request
+02/11/2019 11:50:28 PM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Owner Information']/parent::div//a/strong"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 11:50:28 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Property Information']/parent::td//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:28 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:50:28 PM Finished Request
+02/11/2019 11:50:28 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Owner Information']/parent::td//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:28 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:50:28 PM Finished Request
+02/11/2019 11:50:28 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Mailing Address']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:28 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:50:28 PM Finished Request
+02/11/2019 11:50:28 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Deed Number']/following-sibling::td/a", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:28 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:50:28 PM Finished Request
+02/11/2019 11:50:28 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Last Deed Date']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:28 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:50:28 PM Finished Request
+02/11/2019 11:50:28 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Sale Date']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:28 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:50:28 PM Finished Request
+02/11/2019 11:50:28 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Sale Price']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:28 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 102
+02/11/2019 11:50:28 PM Finished Request
+02/11/2019 11:50:28 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6415311781526698-1/text {"id": "0.6415311781526698-1", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:28 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6415311781526698-1/text HTTP/1.1" 200 80
+02/11/2019 11:50:28 PM Finished Request
+02/11/2019 11:50:28 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6415311781526698-2/text {"id": "0.6415311781526698-2", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:28 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6415311781526698-2/text HTTP/1.1" 200 95
+02/11/2019 11:50:28 PM Finished Request
+02/11/2019 11:50:28 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6415311781526698-3/text {"id": "0.6415311781526698-3", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:28 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6415311781526698-3/text HTTP/1.1" 200 105
+02/11/2019 11:50:28 PM Finished Request
+02/11/2019 11:50:28 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6415311781526698-4/text {"id": "0.6415311781526698-4", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:28 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6415311781526698-4/text HTTP/1.1" 200 86
+02/11/2019 11:50:28 PM Finished Request
+02/11/2019 11:50:28 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6415311781526698-5/text {"id": "0.6415311781526698-5", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:29 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6415311781526698-5/text HTTP/1.1" 200 101
+02/11/2019 11:50:29 PM Finished Request
+02/11/2019 11:50:29 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6415311781526698-6/text {"id": "0.6415311781526698-6", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:29 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6415311781526698-6/text HTTP/1.1" 200 79
+02/11/2019 11:50:29 PM Finished Request
+02/11/2019 11:50:29 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6415311781526698-7/text {"id": "0.6415311781526698-7", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:29 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6415311781526698-7/text HTTP/1.1" 200 80
+02/11/2019 11:50:29 PM Finished Request
+02/11/2019 11:50:29 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6415311781526698-8/text {"id": "0.6415311781526698-8", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:29 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6415311781526698-8/text HTTP/1.1" 200 73
+02/11/2019 11:50:29 PM Finished Request
+02/11/2019 11:50:29 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6415311781526698-9/text {"id": "0.6415311781526698-9", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:29 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.6415311781526698-9/text HTTP/1.1" 200 73
+02/11/2019 11:50:29 PM Finished Request
+02/11/2019 11:50:29 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:30 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/execute HTTP/1.1" 200 72
+02/11/2019 11:50:30 PM Finished Request
+02/11/2019 11:50:33 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/elements {"using": "xpath", "value": "//div[@id='rental-results-section']//td[@class='collapsing one wide']//a", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:33 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/elements HTTP/1.1" 200 492
+02/11/2019 11:50:33 PM Finished Request
+02/11/2019 11:50:33 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/execute {"script": "arguments[0].click();", "args": [{"ELEMENT": "0.4420241226413413-10", "element-6066-11e4-a52e-4f735466cecf": "0.4420241226413413-10"}], "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:37 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/execute HTTP/1.1" 200 72
+02/11/2019 11:50:37 PM Finished Request
+02/11/2019 11:50:38 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "(//h3[@class='ui huge basic header' and text()])[1]", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:38 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:38 PM Finished Request
+02/11/2019 11:50:38 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "(//h3[@class='ui huge basic header' and text()])[2]", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:38 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:38 PM Finished Request
+02/11/2019 11:50:38 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Property Information']/parent::div//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:38 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:38 PM Finished Request
+02/11/2019 11:50:38 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Owner Information']/parent::div//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:39 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:39 PM Finished Request
+02/11/2019 11:50:39 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Property Information']/parent::td//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:39 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 385
+02/11/2019 11:50:39 PM Finished Request
+02/11/2019 11:50:39 PM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Property Information']/parent::td//a/strong"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 11:50:39 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Owner Information']/parent::td//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:39 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 382
+02/11/2019 11:50:39 PM Finished Request
+02/11/2019 11:50:39 PM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Owner Information']/parent::td//a/strong"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 11:50:39 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Mailing Address']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:39 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:39 PM Finished Request
+02/11/2019 11:50:39 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Deed Number']/following-sibling::td/a", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:39 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:39 PM Finished Request
+02/11/2019 11:50:39 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Last Deed Date']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:39 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:39 PM Finished Request
+02/11/2019 11:50:39 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Sale Date']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:39 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:39 PM Finished Request
+02/11/2019 11:50:39 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Sale Price']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:39 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:39 PM Finished Request
+02/11/2019 11:50:39 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.06800927965262882-1/text {"id": "0.06800927965262882-1", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:39 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.06800927965262882-1/text HTTP/1.1" 200 80
+02/11/2019 11:50:39 PM Finished Request
+02/11/2019 11:50:39 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.06800927965262882-2/text {"id": "0.06800927965262882-2", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:39 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.06800927965262882-2/text HTTP/1.1" 200 95
+02/11/2019 11:50:39 PM Finished Request
+02/11/2019 11:50:39 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.06800927965262882-3/text {"id": "0.06800927965262882-3", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:39 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.06800927965262882-3/text HTTP/1.1" 200 103
+02/11/2019 11:50:39 PM Finished Request
+02/11/2019 11:50:39 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.06800927965262882-4/text {"id": "0.06800927965262882-4", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:39 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.06800927965262882-4/text HTTP/1.1" 200 85
+02/11/2019 11:50:39 PM Finished Request
+02/11/2019 11:50:39 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.06800927965262882-5/text {"id": "0.06800927965262882-5", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:39 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.06800927965262882-5/text HTTP/1.1" 200 103
+02/11/2019 11:50:39 PM Finished Request
+02/11/2019 11:50:39 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.06800927965262882-6/text {"id": "0.06800927965262882-6", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:39 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.06800927965262882-6/text HTTP/1.1" 200 79
+02/11/2019 11:50:39 PM Finished Request
+02/11/2019 11:50:39 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.06800927965262882-7/text {"id": "0.06800927965262882-7", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:39 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.06800927965262882-7/text HTTP/1.1" 200 80
+02/11/2019 11:50:39 PM Finished Request
+02/11/2019 11:50:39 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.06800927965262882-8/text {"id": "0.06800927965262882-8", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:39 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.06800927965262882-8/text HTTP/1.1" 200 73
+02/11/2019 11:50:39 PM Finished Request
+02/11/2019 11:50:39 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.06800927965262882-9/text {"id": "0.06800927965262882-9", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:39 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.06800927965262882-9/text HTTP/1.1" 200 73
+02/11/2019 11:50:39 PM Finished Request
+02/11/2019 11:50:39 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:42 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/execute HTTP/1.1" 200 72
+02/11/2019 11:50:42 PM Finished Request
+02/11/2019 11:50:45 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/elements {"using": "xpath", "value": "//div[@id='rental-results-section']//td[@class='collapsing one wide']//a", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:45 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/elements HTTP/1.1" 200 492
+02/11/2019 11:50:45 PM Finished Request
+02/11/2019 11:50:45 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/execute {"script": "arguments[0].click();", "args": [{"ELEMENT": "0.8333391284889848-11", "element-6066-11e4-a52e-4f735466cecf": "0.8333391284889848-11"}], "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:51 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/execute HTTP/1.1" 200 72
+02/11/2019 11:50:51 PM Finished Request
+02/11/2019 11:50:52 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "(//h3[@class='ui huge basic header' and text()])[1]", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:52 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:52 PM Finished Request
+02/11/2019 11:50:52 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "(//h3[@class='ui huge basic header' and text()])[2]", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:52 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:52 PM Finished Request
+02/11/2019 11:50:52 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Property Information']/parent::div//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:52 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 386
+02/11/2019 11:50:52 PM Finished Request
+02/11/2019 11:50:52 PM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Property Information']/parent::div//a/strong"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 11:50:52 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Owner Information']/parent::div//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:52 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 383
+02/11/2019 11:50:52 PM Finished Request
+02/11/2019 11:50:52 PM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Owner Information']/parent::div//a/strong"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 11:50:52 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Property Information']/parent::td//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:52 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:52 PM Finished Request
+02/11/2019 11:50:52 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Owner Information']/parent::td//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:52 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:52 PM Finished Request
+02/11/2019 11:50:52 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Mailing Address']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:52 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:52 PM Finished Request
+02/11/2019 11:50:52 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Deed Number']/following-sibling::td/a", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:52 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:52 PM Finished Request
+02/11/2019 11:50:52 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Last Deed Date']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:52 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:52 PM Finished Request
+02/11/2019 11:50:52 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Sale Date']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:52 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:52 PM Finished Request
+02/11/2019 11:50:52 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Sale Price']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:52 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:50:52 PM Finished Request
+02/11/2019 11:50:52 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.47548419141824105-1/text {"id": "0.47548419141824105-1", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:52 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.47548419141824105-1/text HTTP/1.1" 200 80
+02/11/2019 11:50:52 PM Finished Request
+02/11/2019 11:50:52 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.47548419141824105-2/text {"id": "0.47548419141824105-2", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:52 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.47548419141824105-2/text HTTP/1.1" 200 95
+02/11/2019 11:50:52 PM Finished Request
+02/11/2019 11:50:52 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.47548419141824105-3/text {"id": "0.47548419141824105-3", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:52 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.47548419141824105-3/text HTTP/1.1" 200 99
+02/11/2019 11:50:52 PM Finished Request
+02/11/2019 11:50:52 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.47548419141824105-4/text {"id": "0.47548419141824105-4", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:52 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.47548419141824105-4/text HTTP/1.1" 200 87
+02/11/2019 11:50:52 PM Finished Request
+02/11/2019 11:50:52 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.47548419141824105-5/text {"id": "0.47548419141824105-5", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:52 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.47548419141824105-5/text HTTP/1.1" 200 103
+02/11/2019 11:50:52 PM Finished Request
+02/11/2019 11:50:52 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.47548419141824105-6/text {"id": "0.47548419141824105-6", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:52 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.47548419141824105-6/text HTTP/1.1" 200 79
+02/11/2019 11:50:52 PM Finished Request
+02/11/2019 11:50:52 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.47548419141824105-7/text {"id": "0.47548419141824105-7", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:52 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.47548419141824105-7/text HTTP/1.1" 200 80
+02/11/2019 11:50:52 PM Finished Request
+02/11/2019 11:50:52 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.47548419141824105-8/text {"id": "0.47548419141824105-8", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:52 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.47548419141824105-8/text HTTP/1.1" 200 79
+02/11/2019 11:50:52 PM Finished Request
+02/11/2019 11:50:52 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.47548419141824105-9/text {"id": "0.47548419141824105-9", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:52 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.47548419141824105-9/text HTTP/1.1" 200 77
+02/11/2019 11:50:52 PM Finished Request
+02/11/2019 11:50:52 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:54 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/execute HTTP/1.1" 200 72
+02/11/2019 11:50:54 PM Finished Request
+02/11/2019 11:50:57 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/elements {"using": "xpath", "value": "//div[@id='rental-results-section']//td[@class='collapsing one wide']//a", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:50:57 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/elements HTTP/1.1" 200 504
+02/11/2019 11:50:57 PM Finished Request
+02/11/2019 11:50:57 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/execute {"script": "arguments[0].click();", "args": [{"ELEMENT": "0.07941947620003775-12", "element-6066-11e4-a52e-4f735466cecf": "0.07941947620003775-12"}], "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:51:03 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/execute HTTP/1.1" 200 72
+02/11/2019 11:51:03 PM Finished Request
+02/11/2019 11:51:04 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "(//h3[@class='ui huge basic header' and text()])[1]", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:51:04 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:51:04 PM Finished Request
+02/11/2019 11:51:04 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "(//h3[@class='ui huge basic header' and text()])[2]", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:51:04 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:51:04 PM Finished Request
+02/11/2019 11:51:04 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Property Information']/parent::div//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:51:04 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 386
+02/11/2019 11:51:04 PM Finished Request
+02/11/2019 11:51:04 PM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Property Information']/parent::div//a/strong"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 11:51:04 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Owner Information']/parent::div//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:51:04 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 383
+02/11/2019 11:51:04 PM Finished Request
+02/11/2019 11:51:04 PM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Owner Information']/parent::div//a/strong"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+02/11/2019 11:51:04 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Property Information']/parent::td//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:51:04 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:51:04 PM Finished Request
+02/11/2019 11:51:04 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[text()='Owner Information']/parent::td//a/strong", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:51:04 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:51:04 PM Finished Request
+02/11/2019 11:51:04 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Mailing Address']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:51:04 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:51:04 PM Finished Request
+02/11/2019 11:51:04 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Deed Number']/following-sibling::td/a", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:51:04 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:51:04 PM Finished Request
+02/11/2019 11:51:04 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Last Deed Date']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:51:04 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:51:04 PM Finished Request
+02/11/2019 11:51:04 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Sale Date']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:51:04 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:51:04 PM Finished Request
+02/11/2019 11:51:04 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//td[text()='Sale Price']/following-sibling::td", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:51:04 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 103
+02/11/2019 11:51:04 PM Finished Request
+02/11/2019 11:51:04 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.14244259478911125-1/text {"id": "0.14244259478911125-1", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:51:04 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.14244259478911125-1/text HTTP/1.1" 200 80
+02/11/2019 11:51:04 PM Finished Request
+02/11/2019 11:51:04 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.14244259478911125-2/text {"id": "0.14244259478911125-2", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:51:04 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.14244259478911125-2/text HTTP/1.1" 200 95
+02/11/2019 11:51:04 PM Finished Request
+02/11/2019 11:51:04 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.14244259478911125-3/text {"id": "0.14244259478911125-3", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:51:04 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.14244259478911125-3/text HTTP/1.1" 200 99
+02/11/2019 11:51:04 PM Finished Request
+02/11/2019 11:51:04 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.14244259478911125-4/text {"id": "0.14244259478911125-4", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:51:04 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.14244259478911125-4/text HTTP/1.1" 200 85
+02/11/2019 11:51:04 PM Finished Request
+02/11/2019 11:51:04 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.14244259478911125-5/text {"id": "0.14244259478911125-5", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:51:04 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.14244259478911125-5/text HTTP/1.1" 200 103
+02/11/2019 11:51:04 PM Finished Request
+02/11/2019 11:51:04 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.14244259478911125-6/text {"id": "0.14244259478911125-6", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:51:04 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.14244259478911125-6/text HTTP/1.1" 200 79
+02/11/2019 11:51:04 PM Finished Request
+02/11/2019 11:51:04 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.14244259478911125-7/text {"id": "0.14244259478911125-7", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:51:04 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.14244259478911125-7/text HTTP/1.1" 200 80
+02/11/2019 11:51:04 PM Finished Request
+02/11/2019 11:51:04 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.14244259478911125-8/text {"id": "0.14244259478911125-8", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:51:04 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.14244259478911125-8/text HTTP/1.1" 200 79
+02/11/2019 11:51:04 PM Finished Request
+02/11/2019 11:51:04 PM GET http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element/0.14244259478911125-9/text {"id": "0.14244259478911125-9", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:51:05 PM http://127.0.0.1:54865 "GET /session/5397bda17a0ab4525d3f6f09106c2b30/element/0.14244259478911125-9/text HTTP/1.1" 200 77
+02/11/2019 11:51:05 PM Finished Request
+02/11/2019 11:51:05 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/execute {"script": "window.history.go(-1)", "args": [], "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:51:07 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/execute HTTP/1.1" 200 72
+02/11/2019 11:51:07 PM Finished Request
+02/11/2019 11:51:10 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/elements {"using": "xpath", "value": "//div[@id='rental-results-section']//td[@class='collapsing one wide']//a", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:51:10 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/elements HTTP/1.1" 200 504
+02/11/2019 11:51:10 PM Finished Request
+02/11/2019 11:51:10 PM POST http://127.0.0.1:54865/session/5397bda17a0ab4525d3f6f09106c2b30/element {"using": "xpath", "value": "//div[@id='rental-results-section']//a[text()='View more results']", "sessionId": "5397bda17a0ab4525d3f6f09106c2b30"}
+02/11/2019 11:51:10 PM http://127.0.0.1:54865 "POST /session/5397bda17a0ab4525d3f6f09106c2b30/element HTTP/1.1" 200 394
+02/11/2019 11:51:10 PM Finished Request
+02/11/2019 11:51:10 PM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='rental-results-section']//a[text()='View more results']"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
